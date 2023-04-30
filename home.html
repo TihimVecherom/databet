@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230430190839">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<button type="button" class="menu__icon"><span></span></button>
+					<div class="header__logo">
+						<a class="logo" href="#">
+							<img src="img/header/logotype.png" alt="logo">
+						</a>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<div class="menu__logo-close-mb">
+								<a class="logo" href="#">
+									<img src="img/header/logotype.png" alt="logo">
+								</a>
+								<button class="menu__btn-close">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line x1="1.70711" y1="1.26343" x2="17.2635" y2="16.8198" stroke="#3C4043" stroke-linecap="square" />
+										<line x1="1" y1="16.5563" x2="16.5563" y2="0.999972" stroke="#3C4043" stroke-linecap="square" />
+									</svg>
+								</button>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Database Creator</a></li>
+
+								<li class="menu__item item-dropdown">
+									<a href="#" class="menu__link">Sports
+										<svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.8504 0.201779L8.96023 7.37468L2.0701 0.201779C1.94699 0.0733642 1.78173 0.00147216 1.60965 0.00147216C1.43757 0.00147216 1.27231 0.0733642 1.14921 0.201779C1.0896 0.264151 1.04224 0.338597 1.00992 0.420759C0.977589 0.502921 0.960937 0.591146 0.960937 0.680267C0.960937 0.769388 0.977589 0.857613 1.00992 0.939775C1.04224 1.02194 1.0896 1.09638 1.14921 1.15875L8.47911 8.79101C8.60783 8.92501 8.78048 9 8.96023 9C9.13999 9 9.31263 8.92501 9.44136 8.79101L16.7713 1.16023C16.8313 1.09781 16.879 1.02318 16.9116 0.940745C16.9442 0.858311 16.9609 0.769743 16.9609 0.680267C16.9609 0.590791 16.9442 0.502222 16.9116 0.419788C16.879 0.337354 16.8313 0.262725 16.7713 0.200306C16.6482 0.0718913 16.4829 -4.61121e-08 16.3108 -4.56009e-08C16.1387 -4.50897e-08 15.9735 0.0718913 15.8504 0.200306L15.8504 0.201779Z" fill="#3C4043" />
+										</svg>
+									</a>
+									<ul class="dropdown">
+										<li class="dropdown__item">
+											<a class="dropdown__link" href="#"></a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Free packages</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Event Predictions</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Docs</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__block-user">
+						<button class="user-btn">
+							<span>Register </span>
+							<svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 1.26667C7.14279 1.26667 7.77114 1.45239 8.3056 1.80035C8.84006 2.1483 9.25662 2.64287 9.50261 3.2215C9.74859 3.80013 9.81295 4.43685 9.68755 5.05112C9.56215 5.66539 9.25262 6.22964 8.7981 6.6725C8.34358 7.11537 7.76448 7.41697 7.13404 7.53915C6.50361 7.66134 5.85014 7.59863 5.25628 7.35895C4.66242 7.11927 4.15484 6.71339 3.79772 6.19264C3.44061 5.67188 3.25 5.05964 3.25 4.43333C3.25 3.59348 3.59241 2.78803 4.2019 2.19416C4.8114 1.6003 5.63805 1.26667 6.5 1.26667ZM6.5 0C5.60009 0 4.7204 0.260011 3.97216 0.747151C3.22391 1.23429 2.64073 1.92668 2.29635 2.73677C1.95197 3.54686 1.86186 4.43825 2.03743 5.29823C2.21299 6.15822 2.64634 6.94816 3.28266 7.56817C3.91899 8.18819 4.72973 8.61042 5.61234 8.78148C6.49495 8.95254 7.40981 8.86475 8.24121 8.5292C9.07261 8.19365 9.78323 7.62542 10.2832 6.89636C10.7831 6.1673 11.05 5.31016 11.05 4.43333C11.05 3.25754 10.5706 2.1299 9.71734 1.29849C8.86405 0.467082 7.70673 0 6.5 0ZM13 19H11.7V15.8333C11.7 15.4175 11.6159 15.0057 11.4526 14.6215C11.2893 14.2373 11.0499 13.8882 10.7481 13.5942C10.4463 13.3001 10.088 13.0669 9.69372 12.9077C9.29941 12.7486 8.8768 12.6667 8.45 12.6667H4.55C3.68805 12.6667 2.8614 13.0003 2.2519 13.5942C1.64241 14.188 1.3 14.9935 1.3 15.8333V19H0V15.8333C0 14.6575 0.479374 13.5299 1.33266 12.6985C2.18595 11.8671 3.34326 11.4 4.55 11.4H8.45C9.65673 11.4 10.814 11.8671 11.6673 12.6985C12.5206 13.5299 13 14.6575 13 15.8333V19Z" fill="#3C4043" />
+							</svg>
+						</button>
+
+						<button class="basket-btn">
+							<span>Login</span>
+							<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.42879 18.0002C7.13887 18.0002 7.71451 17.4245 7.71451 16.7144C7.71451 16.0043 7.13887 15.4287 6.42879 15.4287C5.7187 15.4287 5.14307 16.0043 5.14307 16.7144C5.14307 17.4245 5.7187 18.0002 6.42879 18.0002Z" fill="#3C4043" />
+								<path d="M15.4288 18.0002C16.1389 18.0002 16.7145 17.4245 16.7145 16.7144C16.7145 16.0043 16.1389 15.4287 15.4288 15.4287C14.7187 15.4287 14.1431 16.0043 14.1431 16.7144C14.1431 17.4245 14.7187 18.0002 15.4288 18.0002Z" fill="#3C4043" />
+								<path d="M18.0001 3.21419H3.74145L3.2143 0.514175C3.18425 0.366782 3.10346 0.234597 2.98599 0.140627C2.86853 0.0466567 2.72183 -0.00314633 2.57144 -0.000113358H0V1.28561H2.04429L4.50002 13.6285C4.53007 13.7759 4.61086 13.9081 4.72833 14.0021C4.84579 14.096 4.99249 14.1458 5.14288 14.1428H16.7144V12.8571H5.67002L5.14288 10.2856H16.7144C16.863 10.2893 17.0082 10.2413 17.1254 10.1499C17.2427 10.0585 17.3246 9.92923 17.3572 9.78422L18.6429 3.99848C18.6645 3.90309 18.664 3.80405 18.6415 3.70889C18.619 3.61373 18.575 3.52495 18.5131 3.44933C18.4511 3.3737 18.3726 3.31321 18.2837 3.27246C18.1949 3.23172 18.0978 3.21178 18.0001 3.21419ZM16.2001 8.99993H4.89859L3.99859 4.49991H17.1965L16.2001 8.99993Z" fill="#3C4043" />
+							</svg>
+						</button>
+					</div>
+					<div class="header__user-menu user-menu">
+						<div class="user-menu__container">
+
+							<div class="user-menu__block-title">
+								<h2 class="user-menu__title">My Account</h2>
+								<a class="user-menu__log" href="#">Log out</a>
+							</div>
+							<div class="user-menu__buttons">
+								<button class="user-menu__button">
+									My Dashboard
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 11V0H11V11H0V12H11V23H12V12H23V11H12Z" fill="#3C4043" />
+										<line y1="11.5" x2="23" y2="11.5" stroke="#3C4043" />
+									</svg>
+								</button>
+								<button class="user-menu__button">
+									Order History
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 11V0H11V11H0V12H11V23H12V12H23V11H12Z" fill="#3C4043" />
+										<line y1="11.5" x2="23" y2="11.5" stroke="#3C4043" />
+									</svg>
+								</button>
+								<button class="user-menu__button">
+									Profile
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 11V0H11V11H0V12H11V23H12V12H23V11H12Z" fill="#3C4043" />
+										<line y1="11.5" x2="23" y2="11.5" stroke="#3C4043" />
+									</svg>
+								</button>
+								<button class="user-menu__button">
+									Data Packages
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 11V0H11V11H0V12H11V23H12V12H23V11H12Z" fill="#3C4043" />
+										<line y1="11.5" x2="23" y2="11.5" stroke="#3C4043" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+
+			<div class="first">
+				<div class="first__top">
+					<div class="first__container">
+						<div class="first__bunner">
+							<p class="first__bunner-text">Get started with our FREE Soccer Data Package, featuring L-27 1xBet 1X2 odds. <button class="first__bunner-btn">Download</button></p>
+
+						</div>
+					</div>
+				</div>
+				<div class="first__container">
+					<div class="first__content">
+						<div class="first__block-text">
+							<h1 class="first__title">
+								Introducing <br>
+								<span>the Database Creator</span>
+							</h1>
+							<div class="first__text">
+								<p>Get an in-depth understanding of our Database Creator and learn how it can help you create, store, and manage custom databases for <b>33 bookmakers, 16 seasons</b> , and <b>8 sports.</b></p>
+								<p>Explore its features, see how it works, and find out about our <b>special offers</b> and launch timeline.</p>
+							</div>
+							<div class="first__info">
+								<p>Discover the ultimate tool</p>
+								<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.38889 12.5L12.5 17.6111M12.5 17.6111V7.38889M12.5 17.6111L17.6111 12.5M1 12.5C1 14.0102 1.29746 15.5056 1.87539 16.9009C2.45331 18.2961 3.3004 19.5639 4.36827 20.6317C5.43615 21.6996 6.7039 22.5467 8.09914 23.1246C9.49438 23.7025 10.9898 24 12.5 24C14.0102 24 15.5056 23.7025 16.9009 23.1246C18.2961 22.5467 19.5639 21.6996 20.6317 20.6317C21.6996 19.5639 22.5467 18.2961 23.1246 16.9009C23.7025 15.5056 24 14.0102 24 12.5C24 9.45001 22.7884 6.52494 20.6317 4.36827C18.4751 2.2116 15.55 1 12.5 1C9.45001 1 6.52494 2.2116 4.36827 4.36827C2.2116 6.52494 1 9.45001 1 12.5Z" stroke="#3C4043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</div>
+							<a class="first__btn btn-main" href="#">Learn More About Database Creator</a>
+						</div>
+						<div data-da=".first__block-text,991.98" class="first__picture">
+							<img src="img/main/first/1.png" alt="picture">
+						</div>
+
+					</div>
+
+				</div>
+				<div class="first__down">
+					<div class="first__container">
+						<div class="first__items">
+
+							<div class="first__item">
+								<i>
+									<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M68.4879 34.819C68.4879 44.138 64.7302 52.5552 58.5676 58.7178C52.5553 64.73 44.1381 68.638 34.8191 68.638H34.6688C25.3498 68.638 16.9326 64.8803 10.77 58.7178L34.8191 34.819L58.5676 10.9202C64.129 16.4815 67.7363 23.8466 68.3375 31.9631C68.4879 32.865 68.4879 33.7668 68.4879 34.819Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M58.7179 58.7178C52.7056 64.7301 44.2884 68.638 34.9694 68.638C34.8191 67.7362 34.8191 66.8344 34.8191 65.7822C34.8191 57.2147 37.9755 49.3988 43.3866 43.3865L58.7179 58.7178Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M68.638 34.819C68.638 44.1381 64.8804 52.5553 58.7178 58.7178L43.3865 43.3865C49.5491 36.4724 58.5675 32.1135 68.4877 32.1135C68.638 33.0154 68.638 33.9172 68.638 34.819Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M58.5675 10.9203L34.8191 34.8191L10.9203 58.5675C5.05829 52.7056 1.45092 44.8896 1 36.0215C1 35.5706 1 35.1197 1 34.6687C1 25.3497 4.75767 16.9325 10.9203 10.7699C16.9325 4.75767 25.5 1 34.8191 1C35.27 1 35.7209 1 36.1718 1C44.8896 1.45092 52.8559 5.05829 58.5675 10.9203Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M26.2516 26.2515C20.089 32.4141 11.6718 36.1717 2.35276 36.1717C1.90184 36.1717 1.45092 36.1717 1 36.1717C1 35.7208 1 35.2699 1 34.819C1 25.4999 4.75767 17.0827 10.9203 10.9202L26.2516 26.2515Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M36.1717 2.35276C36.1717 11.6718 32.4141 20.089 26.2515 26.2516L10.9202 10.9203C16.9324 4.75767 25.4999 1 34.819 1C35.2699 1 35.7208 1 36.1717 1C36.1717 1.45092 36.1717 1.90184 36.1717 2.35276Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M10.9202 10.9202L58.7178 58.7178" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+									</svg>
+								</i>
+								<h3 class="first__item-title">Bookmakers</h3>
+								<p class="first__item-text">Access data from 24 leading bookmakers, including global giants like bet365, Pinnacle, Betfair, Matchbook, William Hill, and more.</p>
+							</div>
+
+							<div class="first__item">
+								<i>
+									<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M68.638 34.8191C68.638 39.6289 67.5859 44.2884 65.7822 48.3467C63.9785 46.8436 57.5153 42.4847 50.3006 50.9019C46.3926 55.4111 40.5306 58.2669 33.9171 58.2669C21.8926 58.2669 12.2729 48.6473 12.2729 36.6227C12.2729 30.9111 14.5276 25.6503 18.1349 21.8927C26.2515 11.8221 17.5337 5.80982 17.5337 5.80982C22.6441 2.80368 28.5061 1 34.819 1C35.2699 1 35.7208 1 36.1717 1C44.8895 1.30061 52.8558 5.05829 58.7178 10.9203C64.2791 16.4816 67.8865 23.8466 68.4877 31.9632C68.638 32.8651 68.638 33.9172 68.638 34.8191Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M65.7823 48.3467C64.1289 52.2547 61.724 55.7117 58.7178 58.7179C52.5553 64.8804 44.1381 68.6381 34.9694 68.6381H34.819C25.5 68.6381 17.0828 64.8804 10.9203 58.7179C5.05829 52.8559 1.45092 45.0399 1 36.1718C1 35.7209 1 35.27 1 34.819C1 25.5 4.75767 17.0828 10.9203 10.9202C12.8742 8.96626 15.1288 7.16258 17.5338 5.80981C17.5338 5.80981 26.4019 11.9724 18.135 21.8927C14.5276 25.8006 12.273 31.0614 12.273 36.773C12.273 48.7976 21.8927 58.4172 33.9172 58.4172C40.3804 58.4172 46.2424 55.5614 50.3007 51.0522C57.5154 42.635 63.9786 46.9939 65.7823 48.3467Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M66.2332 48.7976C66.2332 48.7976 66.0828 48.6473 65.7822 48.3467" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M68.6381 34.8191C68.6381 44.1381 64.8804 52.5553 58.7178 58.7178C52.5553 64.8804 44.1381 68.6381 34.9694 68.6381H34.8191C25.5 68.6381 17.0828 64.8804 10.9203 58.7178C5.05829 52.8559 1.45092 45.0399 1 36.1718C1 35.7209 1 35.27 1 34.8191C1 25.5 4.75767 17.0828 10.9203 10.9203C17.0828 4.75767 25.5 1 34.8191 1C35.27 1 35.7209 1 36.1718 1C44.8896 1.30061 52.8559 5.05829 58.7178 10.9203C64.2792 16.4816 67.8866 23.8466 68.4878 31.9632C68.6381 32.8651 68.6381 33.9172 68.6381 34.8191Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+									</svg>
+
+								</i>
+								<h3 class="first__item-title">File Formats</h3>
+								<p class="first__item-text">Enjoy the flexibility of receiving data in .csv or .xls formats by default, with .json format available upon individual request.</p>
+							</div>
+
+							<div class="first__item">
+								<i>
+									<svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M69.6381 35.819C69.6381 45.138 65.8805 53.5552 59.7179 59.7178C53.5553 65.8804 45.1381 69.638 35.9694 69.638C35.8191 68.7362 35.8191 67.8343 35.8191 66.7822C35.8191 58.2147 38.9755 50.2484 44.3866 44.3865C50.5492 37.4723 59.5676 33.1134 69.4878 32.9631C69.6381 33.865 69.6381 34.9171 69.6381 35.819Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M69.4878 32.9632C59.4172 32.9632 50.5491 37.3221 44.3865 44.3865C39.1258 50.3988 35.819 58.2148 35.819 66.7823C35.819 67.6841 35.819 68.7363 35.9694 69.6381H35.819C26.5 69.6381 18.0828 65.8804 11.9203 59.7178C6.05829 53.8559 2.45092 46.0399 2 37.1718C2.45092 37.1718 2.90184 37.1718 3.35276 37.1718C12.6718 37.1718 21.089 33.4141 27.2516 27.2516C33.4141 21.089 37.1718 12.6718 37.1718 3.35276C37.1718 2.90184 37.1718 2.45092 37.1718 2C45.8896 2.30061 53.8559 6.05829 59.7178 11.9203C65.2792 17.4816 68.8866 24.8466 69.4878 32.9632Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M37.1718 3.35276C37.1718 12.6718 33.4141 21.089 27.2516 27.2516C21.089 33.4141 12.6718 37.1718 3.35276 37.1718C2.90184 37.1718 2.45092 37.1718 2 37.1718C2 36.7209 2 36.27 2 35.8191C2 26.5 5.75767 18.0828 11.9203 11.9203C18.0828 5.75767 26.5 2 35.8191 2C36.27 2 36.7209 2 37.1718 2C37.1718 2.45092 37.1718 2.90184 37.1718 3.35276Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M24.9969 20.7886L32.362 28.1536" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M28.6042 15.6782L37.322 21.3899" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M31.1595 10.1167L40.7792 14.3253" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M15.0767 29.6567L20.0368 38.8255" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M19.8865 26.0493L26.3497 34.3162" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M48.2945 47.3929L40.9294 40.0278" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M44.6872 52.5032L35.9694 46.7915" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M42.1319 57.9142L32.6626 53.7056" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M58.816 39.5768L53.8558 30.2578" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M54.0062 42.8836L47.543 34.6167" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+									</svg>
+								</i>
+								<h3 class="first__item-title">Odds Lines and Markets</h3>
+								<p class="first__item-text">Dive into comprehensive data for popular odds lines, such as 1X2, Double Chance, Both Team to Score, Total Goals, Asian Handicap, and Correct Score.</p>
+							</div>
+
+							<div class="first__item">
+								<i>
+									<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M68.6381 34.8986C68.6381 44.3066 64.8804 52.6692 58.7178 58.7919C52.5553 64.9145 44.1381 68.6479 34.9694 68.6479H34.8191C25.5 68.6479 17.0828 64.9145 10.9203 58.7919C5.05829 52.9679 1.45092 45.0532 1 36.2426C1 35.7946 1 35.3466 1 34.8986C1 25.4906 4.75767 17.128 10.9203 11.0053C17.0828 4.73333 25.5 1 34.8191 1C35.27 1 35.7209 1 36.1718 1C44.8896 1.29867 52.8559 5.03199 58.7178 10.856C64.2792 16.3813 67.8866 23.6986 68.4878 31.9119C68.6381 32.9573 68.6381 33.8533 68.6381 34.8986Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M20.6913 3.98804C17.3846 5.1827 13.6269 11.156 19.7895 10.26C25.9521 9.36403 49.7006 3.24137 49.2496 11.604C48.6484 17.5773 25.2005 12.948 20.541 17.428C13.6269 24.148 29.2588 42.3666 30.7619 44.6066C33.4674 48.7879 28.8079 52.8199 19.6392 40.4253C13.6269 31.9133 10.6208 25.3427 8.81709 24.596C4.6085 22.804 0.249598 31.6146 1.60236 40.276" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M48.6473 3.98804C48.6473 3.98804 61.2731 9.51336 57.8161 16.532C54.6596 23.1027 29.7087 17.876 27.3037 20.8627C24.8988 23.8493 29.5584 27.1346 35.8712 26.2386C42.1841 25.3427 48.7976 25.044 51.0522 25.044C53.3068 25.1933 56.9142 26.5373 56.7639 31.316C56.6136 36.0946 56.7639 41.1719 48.7976 53.2679C46.2424 57.0012 45.9418 59.9879 49.6995 58.3452C53.4572 56.7026 60.8222 50.5799 61.2731 39.38C61.1228 31.9133 66.3835 32.212 68.3375 39.38" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M52.2547 63.8706C52.2547 63.8706 38.727 70.7399 36.9234 64.468C35.7209 60.1373 39.6289 59.54 45.0399 50.58C49.5491 43.1133 51.6534 35.9454 49.2485 34.9C46.8436 33.8547 46.543 35.4974 42.7853 42.6653C39.0277 49.8333 36.0215 57.5986 30.1595 56.7026C24.2976 55.8066 18.135 51.3267 12.8743 41.62C12.1227 40.276 8.81597 29.8227 7.01229 32.9587C5.2086 36.0947 5.80983 42.964 12.273 51.028C16.3313 56.1053 22.043 58.644 20.9908 60.1373C19.9387 61.6306 15.8804 62.8253 11.6718 59.54" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+									</svg>
+								</i>
+								<h3 class="first__item-title">Regular Updates</h3>
+								<p class="first__item-text">Stay up-to-date with our weekly data package updates, and keep an eye out for our upcoming daily update feature.</p>
+							</div>
+
+							<div class="first__item">
+								<i>
+									<svg width="65" height="70" viewBox="0 0 65 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M63.8829 14.9785C63.8829 18.135 63.604 21.1411 63.1858 24.1473C58.1663 22.4939 53.7045 19.6381 50.2188 15.8804L50.0793 15.7301C46.4542 11.8221 43.6656 7.16258 42.1318 1.75153C44.9204 1.15031 47.8485 1 50.7765 1C51.3342 1 51.8919 1 52.3102 1C53.4257 1 54.5411 1.15031 55.6565 1.30061C57.748 1.45092 59.5606 2.50307 60.9549 4.00614C62.3492 5.50921 63.3252 7.4632 63.4646 9.7178C63.604 11.0706 63.6041 12.4233 63.7435 13.7761C63.8829 14.227 63.8829 14.6779 63.8829 14.9785Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M4.48575 66.2347C4.34632 66.0844 4.06746 65.9341 3.92803 65.6335L3.7886 65.4832C2.3943 63.9801 1.41829 62.0261 1.27886 59.7715C1.13943 58.4187 1.13943 57.066 1 55.7132C1 55.2623 1 54.8114 1 54.3605C1 51.3543 1.27886 48.3482 1.69715 45.342H1.83658C1.41829 48.3482 1.13943 51.3543 1.13943 54.5108C1.13943 56.3144 1.27886 58.1181 1.41829 59.7715C1.55772 62.0261 2.53373 63.9801 3.92803 65.4832C4.06746 65.7838 4.20689 66.0844 4.48575 66.2347Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M22.6119 67.7379C19.8233 68.3391 16.8952 68.4894 13.9672 68.4894C13.4095 68.4894 12.8518 68.4894 12.4335 68.4894C11.318 68.4894 10.2026 68.3391 9.08715 68.1888C7.41399 68.0385 5.88027 67.4372 4.6254 66.3851L4.48597 66.2348C4.34654 66.0845 4.06768 65.9342 3.92825 65.6336C2.53395 64.1305 1.55794 62.1765 1.41851 59.9219C1.27908 58.1182 1.13965 56.4648 1.13965 54.6612C1.13965 51.5047 1.41851 48.4986 1.8368 45.4924C6.71685 47.1458 11.1786 50.0016 14.8038 53.7593C14.8038 53.7593 14.9432 53.7593 14.9432 53.9096C18.429 57.6673 21.0781 62.4771 22.6119 67.7379Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M63.1857 24.1472C59.1423 49.3988 38.6461 68.638 14.1064 68.638C12.4332 68.638 10.7601 68.4877 9.22636 68.3374C7.5532 68.1871 5.88004 67.4356 4.62517 66.3834C5.88004 67.4356 7.41377 68.0368 9.08693 68.3374C10.2024 68.4877 11.3178 68.4877 12.4332 68.638C12.991 68.638 13.5487 68.638 13.967 68.638C16.895 68.638 19.823 68.3374 22.6116 67.8865C21.0779 62.6258 18.4287 57.8159 14.8036 54.0583L14.6641 53.908C11.0389 50.1503 6.71662 47.2945 1.69714 45.6411C5.46175 23.2454 21.6356 5.65944 42.1318 1.75146C43.6655 7.01221 46.3147 11.822 49.9399 15.5797L50.0793 15.73C53.7045 19.638 58.1663 22.4938 63.1857 24.1472Z" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M14.8036 53.9095L23.8665 44.1395L28.4677 39.1794L32.9295 34.2193L37.5307 29.4095L42.1319 24.4493L50.0794 15.8818" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M20.5201 40.5322L27.3522 47.8973" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M24.9819 35.572L31.814 42.9371" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M29.5831 30.6121L36.4152 37.9771" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M34.1843 25.6519L41.0164 33.0169" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+										<path d="M38.7855 20.842L45.6176 28.2071" stroke="#EA4335" stroke-width="2" stroke-miterlimit="10" />
+									</svg>
+								</i>
+								<h3 class="first__item-title">Data Coverage</h3>
+								<p class="first__item-text">Enhance your analysis with our extensive range of historical data, covering seasons from 2007/2008 to 2022/2023.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="tailor">
+				<div class="tailor__container">
+					<h2 class="tailor__title">Tailor your experience with our services:</h2>
+					<ul class="tailor__items">
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Database Creator</h3>
+								<p class="tailor__item-text">Customize your own data package using our flexible options and features.</p>
+							</div>
+
+						</li>
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Event Predictions</h3>
+								<p class="tailor__item-text">Access our comprehensive event predictions and make informed decisions based on data-driven insights.</p>
+							</div>
+
+						</li>
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Ready-to-Use Data Packages</h3>
+								<p class="tailor__item-text">Choose from a variety of pre-built data packages tailored to your needs.</p>
+							</div>
+
+						</li>
+
+
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="bookmakers">
+				<div class="bookmakers__container">
+					<h2 class="bookmakers__title">Bookmakers</h2>
+					<div class="bookmakers__items">
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/1.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/2.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/3.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/4.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/5.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/6.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/7.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/8.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/9.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/10.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/11.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/12.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/13.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/14.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/15.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/16.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/17.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/18.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/19.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/20.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/21.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/22.png" alt="icon">
+						</div>
+						<div class="bookmakers__item">
+							<img src="img/main/bookmakers/23.png" alt="icon">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="bunner-info">
+				<div class="bunner-info__container">
+					<div class="bunner-info__items">
+						<div class="bunner-info__item">
+							<h3 class="bunner-info__num">8</h3>
+							<p class="bunner-info__item-text">sports</p>
+						</div>
+						<div class="bunner-info__item">
+							<h3 class="bunner-info__num">29</h3>
+							<p class="bunner-info__item-text">bookmakers</p>
+						</div>
+						<div class="bunner-info__item">
+							<h3 class="bunner-info__num">2285000</h3>
+							<p class="bunner-info__item-text">events</p>
+						</div>
+						<div class="bunner-info__item">
+							<h3 class="bunner-info__num">16</h3>
+							<p class="bunner-info__item-text">seasons</p>
+						</div>
+						<div class="bunner-info__item">
+							<h3 class="bunner-info__num">89</h3>
+							<p class="bunner-info__item-text">odds lines</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="information">
+				<div class="information__container">
+					<div class="information__content">
+						<h2 class="information__title">Information about saved data by sports</h2>
+
+						<div class="information__slider">
+							<div class="swiper swiper-information">
+
+								<div class="swiper-wrapper swiper-information-wrap">
+
+									<div class="swiper-slide information-slide">
+										<svg width="59" height="61" viewBox="0 0 59 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M78.46 20.4526C78.46 31.3404 74.1374 41.0185 67.0483 48.1043C59.9592 55.19 50.2764 59.5106 39.7292 59.5106H39.5563C28.8362 59.5106 19.1535 55.19 12.0643 48.1043C5.32103 41.3642 1.1713 32.2045 0.652588 22.008C0.652588 21.4895 0.652588 20.971 0.652588 20.4526C0.652588 9.5647 4.97522 -0.113407 12.0643 -7.19916C19.1535 -14.4577 28.8362 -18.7783 39.5563 -18.7783C40.075 -18.7783 40.5937 -18.7783 41.1125 -18.7783C51.141 -18.4327 60.305 -14.1121 67.0483 -7.37198C73.4458 -0.977523 77.5955 7.49082 78.2871 16.9961C78.46 18.2059 78.46 19.2428 78.46 20.4526Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M23.3047 -15.3202C19.5007 -13.9376 15.1781 -7.02467 22.2672 -8.06161C29.3564 -9.09855 56.6754 -16.1843 56.1567 -6.5062C55.4651 0.406726 28.4918 -4.95079 23.1318 0.233903C15.1781 8.01095 33.1603 29.0954 34.8893 31.6877C38.0016 36.5268 32.6416 41.193 22.0943 26.8487C15.1781 16.9978 11.72 9.39353 9.64513 8.52942C4.80378 6.45554 -0.210479 16.6521 1.34567 26.6759" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M55.4637 -15.3202C55.4637 -15.3202 69.9878 -8.92573 66.011 -0.80304C62.3799 6.80118 33.6776 0.75237 30.9112 4.20883C28.1447 7.6653 33.5047 11.4674 40.7668 10.4305C48.0288 9.39353 55.6366 9.04789 58.2302 9.04789C60.8238 9.22071 64.9735 10.7761 64.8006 16.3065C64.6277 21.8368 64.8006 27.7128 55.6366 41.7115C52.6972 46.0321 52.3514 49.4885 56.6741 47.5875C60.9967 45.6864 69.4691 38.6007 69.9878 25.6389C69.8149 16.9978 75.8666 17.3434 78.1143 25.6389" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M59.6134 53.982C59.6134 53.982 44.0519 61.9318 41.977 54.6732C40.5938 49.6614 45.0893 48.9701 51.3139 38.6007C56.5011 29.9595 58.9218 21.664 56.1553 20.4542C53.3888 19.2445 53.043 21.1455 48.7203 29.441C44.3977 37.7366 40.9396 46.7234 34.1963 45.6864C27.453 44.6495 20.3638 39.4648 14.3122 28.2313C13.4476 26.6759 9.64371 14.5782 7.56884 18.2075C5.49398 21.8368 6.1856 29.7867 13.6205 39.1192C18.289 44.9951 24.8594 47.9331 23.6491 49.6614C22.4387 51.3896 17.7703 52.7722 12.9289 48.9701" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Soccer</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">960 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">99</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">549</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Soccer page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="56" height="61" viewBox="0 0 56 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3.64293 43.8494C-3.70664 35.8477 2.52452 16.0173 17.5432 -0.334002C31.763 -15.8156 48.8588 -22.5997 56.8475 -16.5114L58.9245 -14.25" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M59.0843 -14.2483L69.4696 -3.11547C76.8192 4.88625 70.588 24.7166 55.5693 41.0679C41.1897 56.7235 24.094 63.5075 16.1053 57.2453L14.188 55.1579L3.80273 43.8511" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M3.64294 43.8511C5.72 46.1125 8.43615 47.1562 11.7914 47.1562C20.7387 47.3301 33.201 40.5461 44.0656 28.7174C55.09 16.8888 61.3211 3.14675 61.1614 -6.42052C61.1614 -9.37768 60.3625 -12.1609 59.0843 -14.2483" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.1053 57.0696C15.7857 56.722 15.3064 56.3744 14.9869 56.0269C14.6673 55.8531 14.3478 55.5055 14.188 55.158L16.1053 57.0696Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.1052 57.2438V57.0714" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Ice Hockey</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">237 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">60</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">116</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Ice Hockey page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="56" height="61" viewBox="0 0 56 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M73.5029 -2.5952C73.5029 1.05776 73.1797 4.53677 72.6949 8.01577C66.8769 6.10232 61.7053 2.79726 57.6651 -1.5515L57.5034 -1.72545C53.3016 -6.24816 50.0693 -11.6406 48.2916 -17.9028C51.5238 -18.5986 54.9177 -18.7726 58.3115 -18.7726C58.9579 -18.7726 59.6044 -18.7726 60.0892 -18.7726C61.3821 -18.7726 62.675 -18.5986 63.9679 -18.4247C66.392 -18.2507 68.493 -17.0331 70.1091 -15.2936C71.7252 -13.5541 72.8565 -11.2927 73.0181 -8.68346C73.1797 -7.11791 73.1797 -5.55235 73.3413 -3.9868C73.5029 -3.46495 73.5029 -2.9431 73.5029 -2.5952Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M4.65672 56.7235C4.49511 56.5496 4.17189 56.3756 4.01028 56.0277L3.84867 55.8538C2.23256 54.1143 1.10129 51.8529 0.939677 49.2437C0.778066 47.6781 0.778066 46.1126 0.616455 44.547C0.616455 44.0252 0.616455 43.5033 0.616455 42.9815C0.616455 39.5024 0.939677 36.0234 1.42451 32.5444H1.58612C1.10129 36.0234 0.778066 39.5024 0.778066 43.1554C0.778066 45.2428 0.939677 47.3302 1.10129 49.2437C1.2629 51.8529 2.39417 54.1143 4.01028 55.8538C4.17189 56.2017 4.3335 56.5496 4.65672 56.7235Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M25.6664 58.4631C22.4342 59.1589 19.0403 59.3329 15.6465 59.3329C15.0001 59.3329 14.3536 59.3329 13.8688 59.3329C12.5759 59.3329 11.283 59.1589 9.99013 58.985C8.0508 58.811 6.27309 58.1152 4.81859 56.8975L4.65698 56.7236C4.49537 56.5496 4.17215 56.3757 4.01054 56.0278C2.39443 54.2883 1.26315 52.0269 1.10154 49.4177C0.939931 47.3303 0.77832 45.4168 0.77832 43.3294C0.77832 39.6765 1.10154 36.1975 1.58637 32.7184C7.24275 34.6319 12.4143 37.937 16.6162 42.2857C16.6162 42.2857 16.7778 42.2857 16.7778 42.4597C20.8181 46.8084 23.8887 52.3748 25.6664 58.4631Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M72.6949 8.01577C68.0082 37.2394 44.2514 59.5051 15.8079 59.5051C13.8686 59.5051 11.9293 59.3311 10.1515 59.1572C8.21221 58.9832 6.27288 58.1135 4.81839 56.8958C6.27288 58.1135 8.0506 58.8093 9.98993 59.1572C11.2828 59.3311 12.5757 59.3311 13.8686 59.5051C14.515 59.5051 15.1615 59.5051 15.6463 59.5051C19.0401 59.5051 22.434 59.1572 25.6662 58.6353C23.8885 52.5471 20.8179 46.9806 16.616 42.6319L16.4544 42.4579C12.2525 38.1092 7.24255 34.8041 1.42456 32.8907C5.78805 6.97207 24.5349 -13.3801 48.2917 -17.9028C50.0694 -11.8146 53.14 -6.24816 57.3419 -1.8994L57.5035 -1.72545C61.7054 2.79726 66.8769 6.10232 72.6949 8.01577Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.616 42.4596L27.1207 31.1529L32.4538 25.4125L37.6254 19.6721L42.9585 14.1057L48.2917 8.36537L57.5035 -1.5498" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M23.2419 26.978L31.1609 35.5016" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M28.4135 21.2377L36.3324 29.7612" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M33.7466 15.4973L41.6655 24.0209" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M39.0798 9.75696L46.9988 18.2805" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M44.413 4.19055L52.3319 12.7141" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Rugby</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">30 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">8</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">20</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">10</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Rugby page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="59" height="61" viewBox="0 0 59 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M78.2872 20.3678C78.2872 31.1527 73.9645 40.894 66.8754 48.0259C59.9592 54.9839 50.2765 59.5067 39.5563 59.5067H39.3834C28.6633 59.5067 18.9806 55.1579 11.8915 48.0259L39.5563 20.3678L66.8754 -7.29028C73.2729 -0.85412 77.4226 7.66945 78.1143 17.0628C78.2872 18.1065 78.2872 19.1502 78.2872 20.3678Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M67.0482 48.026C60.132 54.984 50.4493 59.5067 39.7292 59.5067C39.5563 58.463 39.5563 57.4193 39.5563 56.2016C39.5563 46.2865 43.1873 37.241 49.4119 30.283L67.0482 48.026Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M78.4601 20.3679C78.4601 31.1528 74.1375 40.894 67.0484 48.026L49.412 30.283C56.5011 22.2813 66.8754 17.2368 78.2872 17.2368C78.4601 18.2805 78.4601 19.3242 78.4601 20.3679Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M66.8754 -7.29027L39.5563 20.3678L12.0643 47.852C5.32103 41.0679 1.1713 32.0225 0.652588 21.7594C0.652588 21.2376 0.652588 20.7157 0.652588 20.1939C0.652588 9.40896 4.97522 -0.332258 12.0643 -7.46422C18.9806 -14.4222 28.8362 -18.771 39.5563 -18.771C40.075 -18.771 40.5937 -18.771 41.1125 -18.771C51.141 -18.2491 60.305 -14.0743 66.8754 -7.29027Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M29.7007 10.4527C22.6116 17.5846 12.9289 21.9334 2.20874 21.9334C1.69002 21.9334 1.1713 21.9334 0.652588 21.9334C0.652588 21.4115 0.652588 20.8897 0.652588 20.3678C0.652588 9.5829 4.97522 -0.158318 12.0643 -7.29028L29.7007 10.4527Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M41.1124 -17.2054C41.1124 -6.42052 36.7898 3.3207 29.7007 10.4527L12.0643 -7.29027C18.9805 -14.4222 28.8362 -18.771 39.5563 -18.771C40.075 -18.771 40.5937 -18.771 41.1124 -18.771C41.1124 -18.2491 41.1124 -17.7273 41.1124 -17.2054Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M12.0643 -7.29028L67.0483 48.0259" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Basketball</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">266 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">100</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">39</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Basketball page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="59" height="61" viewBox="0 0 59 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M78.46 20.4526C78.46 31.3404 74.1374 41.0185 67.0483 48.1043C59.9592 55.19 50.2764 59.5106 39.7292 59.5106H39.5563C28.8362 59.5106 19.1535 55.19 12.0643 48.1043C5.32103 41.3642 1.1713 32.2045 0.652588 22.008C0.652588 21.4895 0.652588 20.971 0.652588 20.4526C0.652588 9.5647 4.97522 -0.113407 12.0643 -7.19916C19.1535 -14.4577 28.8362 -18.7783 39.5563 -18.7783C40.075 -18.7783 40.5937 -18.7783 41.1125 -18.7783C51.141 -18.4327 60.305 -14.1121 67.0483 -7.37198C73.4458 -0.977523 77.5955 7.49082 78.2871 16.9961C78.46 18.2059 78.46 19.2428 78.46 20.4526Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M23.3047 -15.3202C19.5007 -13.9376 15.1781 -7.02467 22.2672 -8.06161C29.3564 -9.09855 56.6754 -16.1843 56.1567 -6.5062C55.4651 0.406726 28.4918 -4.95079 23.1318 0.233903C15.1781 8.01095 33.1603 29.0954 34.8893 31.6877C38.0016 36.5268 32.6416 41.193 22.0943 26.8487C15.1781 16.9978 11.72 9.39353 9.64513 8.52942C4.80378 6.45554 -0.210479 16.6521 1.34567 26.6759" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M55.4637 -15.3202C55.4637 -15.3202 69.9878 -8.92573 66.011 -0.80304C62.3799 6.80118 33.6776 0.75237 30.9112 4.20883C28.1447 7.6653 33.5047 11.4674 40.7668 10.4305C48.0288 9.39353 55.6366 9.04789 58.2302 9.04789C60.8238 9.22071 64.9735 10.7761 64.8006 16.3065C64.6277 21.8368 64.8006 27.7128 55.6366 41.7115C52.6972 46.0321 52.3514 49.4885 56.6741 47.5875C60.9967 45.6864 69.4691 38.6007 69.9878 25.6389C69.8149 16.9978 75.8666 17.3434 78.1143 25.6389" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M59.6134 53.982C59.6134 53.982 44.0519 61.9318 41.977 54.6732C40.5938 49.6614 45.0893 48.9701 51.3139 38.6007C56.5011 29.9595 58.9218 21.664 56.1553 20.4542C53.3888 19.2445 53.043 21.1455 48.7203 29.441C44.3977 37.7366 40.9396 46.7234 34.1963 45.6864C27.453 44.6495 20.3638 39.4648 14.3122 28.2313C13.4476 26.6759 9.64371 14.5782 7.56884 18.2075C5.49398 21.8368 6.1856 29.7867 13.6205 39.1192C18.289 44.9951 24.8594 47.9331 23.6491 49.6614C22.4387 51.3896 17.7703 52.7722 12.9289 48.9701" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Soccer</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">960 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">99</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">549</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Soccer page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="56" height="61" viewBox="0 0 56 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3.64293 43.8494C-3.70664 35.8477 2.52452 16.0173 17.5432 -0.334002C31.763 -15.8156 48.8588 -22.5997 56.8475 -16.5114L58.9245 -14.25" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M59.0843 -14.2483L69.4696 -3.11547C76.8192 4.88625 70.588 24.7166 55.5693 41.0679C41.1897 56.7235 24.094 63.5075 16.1053 57.2453L14.188 55.1579L3.80273 43.8511" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M3.64294 43.8511C5.72 46.1125 8.43615 47.1562 11.7914 47.1562C20.7387 47.3301 33.201 40.5461 44.0656 28.7174C55.09 16.8888 61.3211 3.14675 61.1614 -6.42052C61.1614 -9.37768 60.3625 -12.1609 59.0843 -14.2483" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.1053 57.0696C15.7857 56.722 15.3064 56.3744 14.9869 56.0269C14.6673 55.8531 14.3478 55.5055 14.188 55.158L16.1053 57.0696Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.1052 57.2438V57.0714" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Ice Hockey</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">237 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">60</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">116</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Ice Hockey page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="56" height="61" viewBox="0 0 56 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M73.5029 -2.5952C73.5029 1.05776 73.1797 4.53677 72.6949 8.01577C66.8769 6.10232 61.7053 2.79726 57.6651 -1.5515L57.5034 -1.72545C53.3016 -6.24816 50.0693 -11.6406 48.2916 -17.9028C51.5238 -18.5986 54.9177 -18.7726 58.3115 -18.7726C58.9579 -18.7726 59.6044 -18.7726 60.0892 -18.7726C61.3821 -18.7726 62.675 -18.5986 63.9679 -18.4247C66.392 -18.2507 68.493 -17.0331 70.1091 -15.2936C71.7252 -13.5541 72.8565 -11.2927 73.0181 -8.68346C73.1797 -7.11791 73.1797 -5.55235 73.3413 -3.9868C73.5029 -3.46495 73.5029 -2.9431 73.5029 -2.5952Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M4.65672 56.7235C4.49511 56.5496 4.17189 56.3756 4.01028 56.0277L3.84867 55.8538C2.23256 54.1143 1.10129 51.8529 0.939677 49.2437C0.778066 47.6781 0.778066 46.1126 0.616455 44.547C0.616455 44.0252 0.616455 43.5033 0.616455 42.9815C0.616455 39.5024 0.939677 36.0234 1.42451 32.5444H1.58612C1.10129 36.0234 0.778066 39.5024 0.778066 43.1554C0.778066 45.2428 0.939677 47.3302 1.10129 49.2437C1.2629 51.8529 2.39417 54.1143 4.01028 55.8538C4.17189 56.2017 4.3335 56.5496 4.65672 56.7235Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M25.6664 58.4631C22.4342 59.1589 19.0403 59.3329 15.6465 59.3329C15.0001 59.3329 14.3536 59.3329 13.8688 59.3329C12.5759 59.3329 11.283 59.1589 9.99013 58.985C8.0508 58.811 6.27309 58.1152 4.81859 56.8975L4.65698 56.7236C4.49537 56.5496 4.17215 56.3757 4.01054 56.0278C2.39443 54.2883 1.26315 52.0269 1.10154 49.4177C0.939931 47.3303 0.77832 45.4168 0.77832 43.3294C0.77832 39.6765 1.10154 36.1975 1.58637 32.7184C7.24275 34.6319 12.4143 37.937 16.6162 42.2857C16.6162 42.2857 16.7778 42.2857 16.7778 42.4597C20.8181 46.8084 23.8887 52.3748 25.6664 58.4631Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M72.6949 8.01577C68.0082 37.2394 44.2514 59.5051 15.8079 59.5051C13.8686 59.5051 11.9293 59.3311 10.1515 59.1572C8.21221 58.9832 6.27288 58.1135 4.81839 56.8958C6.27288 58.1135 8.0506 58.8093 9.98993 59.1572C11.2828 59.3311 12.5757 59.3311 13.8686 59.5051C14.515 59.5051 15.1615 59.5051 15.6463 59.5051C19.0401 59.5051 22.434 59.1572 25.6662 58.6353C23.8885 52.5471 20.8179 46.9806 16.616 42.6319L16.4544 42.4579C12.2525 38.1092 7.24255 34.8041 1.42456 32.8907C5.78805 6.97207 24.5349 -13.3801 48.2917 -17.9028C50.0694 -11.8146 53.14 -6.24816 57.3419 -1.8994L57.5035 -1.72545C61.7054 2.79726 66.8769 6.10232 72.6949 8.01577Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M16.616 42.4596L27.1207 31.1529L32.4538 25.4125L37.6254 19.6721L42.9585 14.1057L48.2917 8.36537L57.5035 -1.5498" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M23.2419 26.978L31.1609 35.5016" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M28.4135 21.2377L36.3324 29.7612" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M33.7466 15.4973L41.6655 24.0209" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M39.0798 9.75696L46.9988 18.2805" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M44.413 4.19055L52.3319 12.7141" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Rugby</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">30 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">8</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">20</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">10</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Rugby page</a>
+									</div>
+
+									<div class="swiper-slide information-slide">
+										<svg width="59" height="61" viewBox="0 0 59 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M78.2872 20.3678C78.2872 31.1527 73.9645 40.894 66.8754 48.0259C59.9592 54.9839 50.2765 59.5067 39.5563 59.5067H39.3834C28.6633 59.5067 18.9806 55.1579 11.8915 48.0259L39.5563 20.3678L66.8754 -7.29028C73.2729 -0.85412 77.4226 7.66945 78.1143 17.0628C78.2872 18.1065 78.2872 19.1502 78.2872 20.3678Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M67.0482 48.026C60.132 54.984 50.4493 59.5067 39.7292 59.5067C39.5563 58.463 39.5563 57.4193 39.5563 56.2016C39.5563 46.2865 43.1873 37.241 49.4119 30.283L67.0482 48.026Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M78.4601 20.3679C78.4601 31.1528 74.1375 40.894 67.0484 48.026L49.412 30.283C56.5011 22.2813 66.8754 17.2368 78.2872 17.2368C78.4601 18.2805 78.4601 19.3242 78.4601 20.3679Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M66.8754 -7.29027L39.5563 20.3678L12.0643 47.852C5.32103 41.0679 1.1713 32.0225 0.652588 21.7594C0.652588 21.2376 0.652588 20.7157 0.652588 20.1939C0.652588 9.40896 4.97522 -0.332258 12.0643 -7.46422C18.9806 -14.4222 28.8362 -18.771 39.5563 -18.771C40.075 -18.771 40.5937 -18.771 41.1125 -18.771C51.141 -18.2491 60.305 -14.0743 66.8754 -7.29027Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M29.7007 10.4527C22.6116 17.5846 12.9289 21.9334 2.20874 21.9334C1.69002 21.9334 1.1713 21.9334 0.652588 21.9334C0.652588 21.4115 0.652588 20.8897 0.652588 20.3678C0.652588 9.5829 4.97522 -0.158318 12.0643 -7.29028L29.7007 10.4527Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M41.1124 -17.2054C41.1124 -6.42052 36.7898 3.3207 29.7007 10.4527L12.0643 -7.29027C18.9805 -14.4222 28.8362 -18.771 39.5563 -18.771C40.075 -18.771 40.5937 -18.771 41.1124 -18.771C41.1124 -18.2491 41.1124 -17.7273 41.1124 -17.2054Z" stroke="#EA4335" stroke-miterlimit="10" />
+											<path d="M12.0643 -7.29028L67.0483 48.0259" stroke="#EA4335" stroke-miterlimit="10" />
+										</svg>
+										<h2 class="information-slide__title">Basketball</h2>
+										<div class="information-slide__items">
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">266 000</h3>
+												<p class="information-slide__item-text">events</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">100</h3>
+												<p class="information-slide__item-text">odds lines</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">39</h3>
+												<p class="information-slide__item-text">leagues</p>
+											</div>
+											<div class="information-slide__item">
+												<h3 class="information-slide__item-num">14</h3>
+												<p class="information-slide__item-text">seasons</p>
+											</div>
+										</div>
+										<a class="information-slide__link" href="#">Go to Basketball page</a>
+									</div>
+
+
+								</div>
+
+
+
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14.6161 2.42996L2.74063 14.6126L14.6161 26.7952C14.8287 27.0129 14.9478 27.3051 14.9478 27.6093C14.9478 27.9136 14.8287 28.2058 14.6161 28.4235C14.5129 28.5289 14.3896 28.6126 14.2536 28.6697C14.1176 28.7269 13.9715 28.7563 13.8239 28.7563C13.6764 28.7563 13.5303 28.7269 13.3943 28.6697C13.2583 28.6126 13.135 28.5289 13.0318 28.4235L0.395753 15.4633C0.173907 15.2357 0.0497471 14.9304 0.0497471 14.6126C0.0497471 14.2948 0.173907 13.9895 0.395754 13.7619L13.0293 0.801714C13.1327 0.695576 13.2562 0.611217 13.3927 0.553616C13.5292 0.496014 13.6758 0.466339 13.8239 0.466339C13.9721 0.466339 14.1187 0.496014 14.2552 0.553616C14.3917 0.611217 14.5152 0.695576 14.6186 0.801714C14.8312 1.01938 14.9502 1.31157 14.9502 1.61584C14.9502 1.92011 14.8312 2.2123 14.6186 2.42996L14.6161 2.42996Z" fill="#3C4043" />
+								</svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.38387 2.42996L12.2594 14.6126L0.383871 26.7952C0.171267 27.0129 0.0522419 27.3051 0.052242 27.6093C0.052242 27.9136 0.171267 28.2058 0.383871 28.4235C0.487134 28.5289 0.610388 28.6126 0.746415 28.6697C0.882443 28.7269 1.02851 28.7563 1.17606 28.7563C1.32361 28.7563 1.46967 28.7269 1.6057 28.6697C1.74173 28.6126 1.86498 28.5289 1.96825 28.4235L14.6042 15.4633C14.8261 15.2357 14.9503 14.9304 14.9503 14.6126C14.9503 14.2948 14.8261 13.9895 14.6042 13.7619L1.97068 0.801714C1.86734 0.695576 1.74379 0.611217 1.60731 0.553616C1.47083 0.496014 1.32419 0.466339 1.17606 0.466339C1.02792 0.466339 0.881285 0.496014 0.744807 0.553616C0.608328 0.611217 0.484772 0.695576 0.381432 0.801714C0.168827 1.01938 0.0498035 1.31157 0.0498035 1.61584C0.0498035 1.92011 0.168827 2.2123 0.381432 2.42996L0.38387 2.42996Z" fill="#3C4043" />
+								</svg>
+							</div>
+						</div>
+						<div class="swiper-pagination "></div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="ready">
+				<div class="ready__container">
+					<div class="ready__content">
+						<h2 class="ready__title">Ready to Use Data Packages</h2>
+						<div class="ready__choise">
+							<h4 class="ready__choise-title">Choose Sport:</h4>
+							<select name="form[]" class="header__select ">
+								<option value="1" selected>Sports</option>
+								<option value="2">Esport</option>
+								<option value="3">Hokey</option>
+							</select>
+						</div>
+						<div class="ready__slider">
+
+							<div class="swiper ready-swiper">
+
+								<div class="swiper-wrapper ready-swiper-wrap">
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer All-in-One </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €186.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, TG, AH, CS, HTFT, BTTS, DNB</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007 — 2023 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer Main odds lines </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €97.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 Leagues </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, TG, AH</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 — 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer 1X2 odds lines</span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €36.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 — 2020/2021</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer 1X2-TG odds lines </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €45.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, TG</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 — 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer 1X2-AH odds lines </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €45.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, AH</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 — 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer 1X2-TG-CS </span> <span>odds lines </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €82.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 Leagues </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, TG, CS</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 - 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer Union 1X2 </span> <br> <span>odds lines</span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €68.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 Leagues </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 - 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide ready-slide">
+										<button class="ready-slide__btn-share"> <span>Soccer Union Main </span> <br> <span>odds lines </span>
+											<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.8243 0.230072L17.7293 1.13567L8.13567 10.7293L7.23071 9.82431L16.8243 0.230072Z" fill="#3184EF" />
+												<path d="M17.92 6.44001H16.64V1.32001H11.52V0.0400085H17.92V6.44001ZM14.72 17.96H1.92C0.832 17.96 0 17.128 0 16.04V3.24001C0 2.15201 0.832 1.32001 1.92 1.32001H8.96V2.60001H1.92C1.536 2.60001 1.28 2.85601 1.28 3.24001V16.04C1.28 16.424 1.536 16.68 1.92 16.68H14.72C15.104 16.68 15.36 16.424 15.36 16.04V9.00001H16.64V16.04C16.64 17.128 15.808 17.96 14.72 17.96Z" fill="#3184EF" />
+											</svg>
+										</button>
+										<div class="ready-slide__items">
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Price:</h3>
+												<p class="ready-slide__item-text green">From €142.00 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Leagues:</h3>
+												<p class="ready-slide__item-text">From 27 to 540 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Odds lines:</h3>
+												<p class="ready-slide__item-text">1X2, TG, AH</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Seasons:</h3>
+												<p class="ready-slide__item-text">2007/2008 - 2020/2021 </p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Saved events:</h3>
+												<p class="ready-slide__item-text">From 290 000 to 930 000</p>
+											</div>
+											<div class="ready-slide__item">
+												<h3 class="ready-slide__item-title">Example:</h3>
+												<button class="ready-slide__item-btn">Download</button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="ready-pagination "></div>
+
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<p class="subscribe__text">Sign up for the Indatabet newsletter</p>
+						<a class="subscribe__btn btn-main" href="#">Subscribe</a>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Privacy</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Term of use</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact us</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">© Indatabet 2020</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230430190839"></script>
+</body>
+
+</html>
