@@ -319,6 +319,10 @@ h6 {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .select {
   position: relative;
 }
@@ -373,6 +377,9 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   background: url("../img/main/ready/arrow-sel.svg") center center no-repeat;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -382,9 +389,9 @@ h6 {
 }
 
 ._select-open .select__value:after {
-  -webkit-transform: rotate(-180deg);
-      -ms-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .select__value._select-pseudo-label::before {
@@ -944,6 +951,8 @@ h6 {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 930px;
+  margin: 0 auto;
 }
 
 .bunner-info__num {
@@ -1922,6 +1931,10 @@ h6 {
   margin-bottom: 70px;
 }
 
+.available__title-text span {
+  color: #B5B5B5;
+}
+
 .available__content {
   display: -ms-grid;
   display: grid;
@@ -2148,6 +2161,14 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fast__btn:hover {
+  background: #3184EF;
+  color: white;
 }
 
 .swiper-wrap-sport {
@@ -2172,6 +2193,8 @@ h6 {
 }
 
 .opening {
+  max-width: 1130px;
+  margin: 0 auto;
   padding-bottom: 150px;
 }
 
@@ -2411,6 +2434,23 @@ h6 {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
+}
+
+.slider-sport {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link-sport {
+  border: 1px solid #3184EF;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #3184EF;
+}
+
+.link-sport svg path {
+  fill: #3184EF;
 }
 
 .header {
@@ -3476,7 +3516,7 @@ body::after {
     transition: 0.3s;
   }
 
-  .items-spoller .available__items {
+  .accordion-content {
     max-height: 0;
     overflow: hidden;
     -webkit-animation-name: accardion-back;
