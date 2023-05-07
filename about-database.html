@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>About Database</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230507133929">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<button type="button" class="menu__icon"><span></span></button>
+					<div class="header__logo">
+						<a class="logo" href="#">
+							<img src="img/header/logotype.svg" alt="logo">
+						</a>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<div class="menu__logo-close-mb">
+								<a class="logo" href="#">
+									<img src="img/header/logotype.svg" alt="logo">
+								</a>
+								<button class="menu__btn-close">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line x1="1.70711" y1="1.26343" x2="17.2635" y2="16.8198" stroke="#3C4043" stroke-linecap="square" />
+										<line x1="1" y1="16.5563" x2="16.5563" y2="0.999972" stroke="#3C4043" stroke-linecap="square" />
+									</svg>
+								</button>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Database Creator</a></li>
+
+								<li class="menu__item item-dropdown">
+									<a class="menu__link ">Soccer
+										<svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.8504 0.201779L8.96023 7.37468L2.0701 0.201779C1.94699 0.0733642 1.78173 0.00147216 1.60965 0.00147216C1.43757 0.00147216 1.27231 0.0733642 1.14921 0.201779C1.0896 0.264151 1.04224 0.338597 1.00992 0.420759C0.977589 0.502921 0.960937 0.591146 0.960937 0.680267C0.960937 0.769388 0.977589 0.857613 1.00992 0.939775C1.04224 1.02194 1.0896 1.09638 1.14921 1.15875L8.47911 8.79101C8.60783 8.92501 8.78048 9 8.96023 9C9.13999 9 9.31263 8.92501 9.44136 8.79101L16.7713 1.16023C16.8313 1.09781 16.879 1.02318 16.9116 0.940745C16.9442 0.858311 16.9609 0.769743 16.9609 0.680267C16.9609 0.590791 16.9442 0.502222 16.9116 0.419788C16.879 0.337354 16.8313 0.262725 16.7713 0.200306C16.6482 0.0718913 16.4829 -4.61121e-08 16.3108 -4.56009e-08C16.1387 -4.50897e-08 15.9735 0.0718913 15.8504 0.200306L15.8504 0.201779Z" fill="#3C4043" />
+										</svg>
+									</a>
+									<div class="dropdown">
+
+										<ul class="dropdown__wrap">
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 1</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 2</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 3</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 4</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 5</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 6</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 7</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 8</a>
+											</li>
+										</ul>
+
+									</div>
+
+								</li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Free packages</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Event Predictions</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Docs</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__block-user">
+						<button class="user-btn">
+							<span> <a href="#popup-register">Register</a> </span>
+							<svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 1.26667C7.14279 1.26667 7.77114 1.45239 8.3056 1.80035C8.84006 2.1483 9.25662 2.64287 9.50261 3.2215C9.74859 3.80013 9.81295 4.43685 9.68755 5.05112C9.56215 5.66539 9.25262 6.22964 8.7981 6.6725C8.34358 7.11537 7.76448 7.41697 7.13404 7.53915C6.50361 7.66134 5.85014 7.59863 5.25628 7.35895C4.66242 7.11927 4.15484 6.71339 3.79772 6.19264C3.44061 5.67188 3.25 5.05964 3.25 4.43333C3.25 3.59348 3.59241 2.78803 4.2019 2.19416C4.8114 1.6003 5.63805 1.26667 6.5 1.26667ZM6.5 0C5.60009 0 4.7204 0.260011 3.97216 0.747151C3.22391 1.23429 2.64073 1.92668 2.29635 2.73677C1.95197 3.54686 1.86186 4.43825 2.03743 5.29823C2.21299 6.15822 2.64634 6.94816 3.28266 7.56817C3.91899 8.18819 4.72973 8.61042 5.61234 8.78148C6.49495 8.95254 7.40981 8.86475 8.24121 8.5292C9.07261 8.19365 9.78323 7.62542 10.2832 6.89636C10.7831 6.1673 11.05 5.31016 11.05 4.43333C11.05 3.25754 10.5706 2.1299 9.71734 1.29849C8.86405 0.467082 7.70673 0 6.5 0ZM13 19H11.7V15.8333C11.7 15.4175 11.6159 15.0057 11.4526 14.6215C11.2893 14.2373 11.0499 13.8882 10.7481 13.5942C10.4463 13.3001 10.088 13.0669 9.69372 12.9077C9.29941 12.7486 8.8768 12.6667 8.45 12.6667H4.55C3.68805 12.6667 2.8614 13.0003 2.2519 13.5942C1.64241 14.188 1.3 14.9935 1.3 15.8333V19H0V15.8333C0 14.6575 0.479374 13.5299 1.33266 12.6985C2.18595 11.8671 3.34326 11.4 4.55 11.4H8.45C9.65673 11.4 10.814 11.8671 11.6673 12.6985C12.5206 13.5299 13 14.6575 13 15.8333V19Z" fill="#3C4043" />
+							</svg>
+						</button>
+
+						<button class="basket-btn">
+							<span> <a href="#popup-login">Login</a> </span>
+							<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.42879 18.0002C7.13887 18.0002 7.71451 17.4245 7.71451 16.7144C7.71451 16.0043 7.13887 15.4287 6.42879 15.4287C5.7187 15.4287 5.14307 16.0043 5.14307 16.7144C5.14307 17.4245 5.7187 18.0002 6.42879 18.0002Z" fill="#3C4043" />
+								<path d="M15.4288 18.0002C16.1389 18.0002 16.7145 17.4245 16.7145 16.7144C16.7145 16.0043 16.1389 15.4287 15.4288 15.4287C14.7187 15.4287 14.1431 16.0043 14.1431 16.7144C14.1431 17.4245 14.7187 18.0002 15.4288 18.0002Z" fill="#3C4043" />
+								<path d="M18.0001 3.21419H3.74145L3.2143 0.514175C3.18425 0.366782 3.10346 0.234597 2.98599 0.140627C2.86853 0.0466567 2.72183 -0.00314633 2.57144 -0.000113358H0V1.28561H2.04429L4.50002 13.6285C4.53007 13.7759 4.61086 13.9081 4.72833 14.0021C4.84579 14.096 4.99249 14.1458 5.14288 14.1428H16.7144V12.8571H5.67002L5.14288 10.2856H16.7144C16.863 10.2893 17.0082 10.2413 17.1254 10.1499C17.2427 10.0585 17.3246 9.92923 17.3572 9.78422L18.6429 3.99848C18.6645 3.90309 18.664 3.80405 18.6415 3.70889C18.619 3.61373 18.575 3.52495 18.5131 3.44933C18.4511 3.3737 18.3726 3.31321 18.2837 3.27246C18.1949 3.23172 18.0978 3.21178 18.0001 3.21419ZM16.2001 8.99993H4.89859L3.99859 4.49991H17.1965L16.2001 8.99993Z" fill="#3C4043" />
+							</svg>
+						</button>
+					</div>
+					<div class="header__user-menu user-menu">
+						<div class="user-menu__container">
+
+							<div class="user-menu__block-title">
+								<h2 class="user-menu__title">My Account</h2>
+								<a class="user-menu__log" href="#">Log out</a>
+							</div>
+							<div class="user-menu__buttons">
+								<a href="#" class="user-menu__button">
+									My Dashboard
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Order History
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Profile
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Data Packages
+
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="fix" class="popup__fix"></div>
+
+			<div id="popup-login" class="popup ">
+
+				<div class="popup__wrap">
+					<a href="#fix" class="popup__bg"></a>
+					<div class="popup__content">
+
+						<form class="popup__form " action="get">
+							<a href="#fix" class="popup__btn-close">
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.53228 0.532417L13.9998 14" stroke="#3C4043" />
+									<path d="M0.666992 14.0001L13.8013 0.86597" stroke="#3C4043" />
+								</svg>
+							</a>
+							<h2 class="popup__form-title">Log In</h2>
+
+							<div class="popup__form-inputs">
+
+								<label class="popup__form-label">
+									<input class="popup__form-input" type="text">
+									<span class="placeholder">Email Address *</span>
+								</label>
+
+								<label class="popup__form-label">
+
+									<input class="popup__form-input input-password password-check" name="password" type="password">
+									<span class="placeholder">Password *</span>
+									<a data-target='.input-password' class="button-show-password">Show</a>
+									<span class="password-condition password-ok">
+										<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.647461 3.52943L6.23805 10.9412L13.3533 1.05884" stroke="#1F8F0D" />
+										</svg>
+									</span>
+									<span class="password-condition  password-error">
+										<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L11 10.5238" stroke="#EA4335" />
+											<path d="M1.47656 10.5238L11.0004 1" stroke="#EA4335" />
+										</svg>
+									</span>
+								</label>
+
+
+							</div>
+							<div class="check-style">
+								<input type="checkbox" name="check-form" id="check-form">
+								<label name="check-form" for="check-form">
+									<span><svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF"></path>
+										</svg></span>
+									Remember me
+								</label>
+							</div>
+
+							<a class="popup__form-link-forgot" href="#">Forgot Your Password?</a>
+
+							<div class="popup__form-buttons">
+								<a class="popup__btn-form-log" href="#">Log In</a>
+								<a class="popup__btn-form-soc" href="#">Log In with Facebook</a>
+								<p class="popup__btn-form-text">By logging in, you agree to the <br> <a href="#">Terms and Privacy Policy</a></p>
+							</div>
+
+							<p class="popup__btn-form-text">New to Indatabet?<a href="#">Register</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div id="popup-register" class="popup ">
+
+				<div class="popup__wrap">
+					<a href="#fix" class="popup__bg"></a>
+					<div class="popup__content">
+
+						<form class="popup__form " action="get">
+							<a href="#fix" class="popup__btn-close">
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.53228 0.532417L13.9998 14" stroke="#3C4043" />
+									<path d="M0.666992 14.0001L13.8013 0.86597" stroke="#3C4043" />
+								</svg>
+							</a>
+							<h2 class="popup__form-title">Register</h2>
+
+							<ul class="popup__items">
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Downloadable sports data.
+								</li>
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Daily updates of the data packages.
+								</li>
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Saved data from over 3 000 000 events.
+								</li>
+							</ul>
+
+							<div class="popup__form-inputs">
+
+								<label class="popup__form-label">
+									<input class="popup__form-input" type="text">
+									<span class="placeholder">Email Address *</span>
+								</label>
+
+								<label class="popup__form-label">
+
+									<input class="popup__form-input input-password password-check" name="password" type="password">
+									<span class="placeholder">Password *</span>
+									<a data-target='.input-password' class="button-show-password">Show</a>
+									<span class="password-condition password-ok">
+										<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.647461 3.52943L6.23805 10.9412L13.3533 1.05884" stroke="#1F8F0D" />
+										</svg>
+									</span>
+									<span class="password-condition  password-error">
+										<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L11 10.5238" stroke="#EA4335" />
+											<path d="M1.47656 10.5238L11.0004 1" stroke="#EA4335" />
+										</svg>
+									</span>
+								</label>
+
+
+							</div>
+							<div class="check-style popup-register-check">
+								<input type="checkbox" name="check-form" id="check-form1">
+								<label name="check-form" for="check-form1">
+									<span><svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF"></path>
+										</svg></span>
+									I'd like to receive the latest news and promotions.
+								</label>
+							</div>
+
+
+
+							<div class="popup__form-buttons">
+								<a class="popup__btn-form-log" href="#">Register</a>
+								<a class="popup__btn-form-soc" href="#">Register with Facebook</a>
+
+							</div>
+
+							<p class="popup__btn-form-text popup-down-text">By logging in, you agree to the<a href="#">Terms and Privacy Policy</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</header>
+		<main class="page">
+
+			<div class="welcome">
+				<div class="welcome__container">
+					<div class="welcome__content">
+						<div class="welcome__block-text">
+							<h1 class="welcome__title">
+								Welcome
+								<span>to the Database Creator</span>
+							</h1>
+							<div class="welcome__items">
+								<div class="welcome__item">
+									<svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p>The Database Creator is a powerful tool designed to help you easily create, store, modify, and update sports betting databases.</p>
+								</div>
+								<div class="welcome__item">
+									<svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p>With access to data from 33 bookmakers and 13 seasons, you can customize your databases to suit your unique needs and preferences.</p>
+								</div>
+								<div class="welcome__item">
+									<svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p>Our goal is to provide you with a user-friendly service that empowers you to make informed betting decisions based on accurate, up-to-date data.</p>
+								</div>
+							</div>
+						</div>
+						<div class="welcome__picture">
+							<svg width="740" height="185" viewBox="0 0 740 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g filter="url(#filter0_f_32_4721)">
+									<path d="M191.896 39L701 54.6292L689.492 127.365L39 146L191.896 39Z" fill="url(#paint0_linear_32_4721)" />
+								</g>
+								<defs>
+									<filter id="filter0_f_32_4721" x="0" y="0" width="740" height="185" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+										<feGaussianBlur stdDeviation="19.5" result="effect1_foregroundBlur_32_4721" />
+									</filter>
+									<linearGradient id="paint0_linear_32_4721" x1="148" y1="81.0786" x2="680" y2="81.0786" gradientUnits="userSpaceOnUse">
+										<stop stop-color="#8C8C8C" />
+										<stop offset="1" stop-color="#B6B6B6" />
+									</linearGradient>
+								</defs>
+							</svg>
+							<img src="img/main/welcome/1.png" alt="picture">
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tailor tailor-about">
+				<div class="tailor__container ">
+					<h2 class="tailor__title">Benefits of Using the Database Creator:
+					</h2>
+					<ul class="tailor__items items-tailor-about">
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Comprehensive data coverage</h3>
+								<p class="tailor__item-text">Access historical odds and results from 33 bookmakers and 13 seasons.</p>
+							</div>
+
+						</li>
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Regular updates</h3>
+								<p class="tailor__item-text">Enjoy 24 months of updates, ensuring your databases remain accurate and current.</p>
+							</div>
+
+						</li>
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Easy to use</h3>
+								<p class="tailor__item-text">Create and manage your databases with our user-friendly interface and tools.</p>
+							</div>
+
+						</li>
+
+						<li class="tailor__item">
+							<div class="tailor__item-content">
+								<h3 class="tailor__item-title">Customization</h3>
+								<p class="tailor__item-text">Tailor your databases to your specific needs by choosing your preferred sports, bookmakers, and timeframes.</p>
+							</div>
+
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="creator">
+				<div class="creator__container">
+					<h2 class="creator__title">Features of the Database Creator</h2>
+					<div class="creator__content">
+						<div class="creator__items">
+							<a href="#" class="creator__item">
+
+								<svg width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.33333 4.66675H4.66667C3.69421 4.66675 2.76157 5.05306 2.07394 5.74069C1.38631 6.42832 1 7.36095 1 8.33341V30.3334C1 31.3059 1.38631 32.2385 2.07394 32.9261C2.76157 33.6138 3.69421 34.0001 4.66667 34.0001H23C23.9725 34.0001 24.9051 33.6138 25.5927 32.9261C26.2804 32.2385 26.6667 31.3059 26.6667 30.3334V8.33341C26.6667 7.36095 26.2804 6.42832 25.5927 5.74069C24.9051 5.05306 23.9725 4.66675 23 4.66675H19.3333" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M8.33301 26.6667V19.3333M13.833 26.6667V24.8333M19.333 26.6667V23M8.33301 4.66667C8.33301 3.69421 8.71932 2.76157 9.40695 2.07394C10.0946 1.38631 11.0272 1 11.9997 1H15.6663C16.6388 1 17.5714 1.38631 18.2591 2.07394C18.9467 2.76157 19.333 3.69421 19.333 4.66667C19.333 5.63913 18.9467 6.57176 18.2591 7.25939C17.5714 7.94702 16.6388 8.33333 15.6663 8.33333H11.9997C11.0272 8.33333 10.0946 7.94702 9.40695 7.25939C8.71932 6.57176 8.33301 5.63913 8.33301 4.66667Z" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+
+								<div class="creator__block-item">
+									<h3 class="creator__item-title"> Data from 33 bookmakers</h3>
+									<p class="creator__item-text">Access data from a wide range of
+										bookmakers to diversify your betting options.</p>
+								</div>
+
+
+							</a>
+							<a href="#" class="creator__item">
+
+								<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 23H8.33333M19.3333 17.5H8.33333M15.6667 12H8.33333M1 4.66667C1 3.69421 1.38631 2.76158 2.07394 2.07394C2.76158 1.38631 3.69421 1 4.66667 1H30.3333C31.3058 1 32.2384 1.38631 32.9261 2.07394C33.6137 2.76158 34 3.69421 34 4.66667V30.3333C34 31.3058 33.6137 32.2384 32.9261 32.9261C32.2384 33.6137 31.3058 34 30.3333 34H4.66667C3.69421 34 2.76158 33.6137 2.07394 32.9261C1.38631 32.2384 1 31.3058 1 30.3333V4.66667Z" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+
+								<div class="creator__block-item">
+									<h3 class="creator__item-title"> 16 Seasons</h3>
+									<p class="creator__item-text">Get comprehensive historical data, spanning
+										16 seasons to identify trends and patterns.</p>
+								</div>
+
+							</a>
+							<a href="#" class="creator__item">
+
+								<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.85833 5.85833L29.1417 29.1417M5.85833 29.1417L29.1417 5.85833M1 17.5C1 19.6668 1.42678 21.8124 2.25599 23.8143C3.08519 25.8161 4.30057 27.6351 5.83274 29.1673C7.3649 30.6994 9.18385 31.9148 11.1857 32.744C13.1876 33.5732 15.3332 34 17.5 34C19.6668 34 21.8124 33.5732 23.8143 32.744C25.8161 31.9148 27.6351 30.6994 29.1673 29.1673C30.6994 27.6351 31.9148 25.8161 32.744 23.8143C33.5732 21.8124 34 19.6668 34 17.5C34 15.3332 33.5732 13.1876 32.744 11.1857C31.9148 9.18385 30.6994 7.36491 29.1673 5.83274C27.6351 4.30057 25.8161 3.08519 23.8143 2.25599C21.8124 1.42679 19.6668 1 17.5 1C15.3332 1 13.1876 1.42679 11.1857 2.25599C9.18385 3.08519 7.3649 4.30057 5.83274 5.83274C4.30057 7.36491 3.08519 9.18385 2.25599 11.1857C1.42678 13.1876 1 15.3332 1 17.5Z" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M17.5 1C17.5 5.37607 19.2384 9.57291 22.3327 12.6673C25.4271 15.7616 29.6239 17.5 34 17.5M1 17.5C5.37607 17.5 9.57291 19.2384 12.6673 22.3327C15.7616 25.4271 17.5 29.6239 17.5 34" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+
+								<div class="creator__block-item">
+									<h3 class="creator__item-title"> 8 Sports</h3>
+									<p class="creator__item-text">Choose from 8 different sports, covering
+										a vast array of betting opportunities.</p>
+								</div>
+
+							</a>
+							<a href="#" class="creator__item">
+
+								<svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M23 1V8.33333M8.33333 1V8.33333M1 15.6667H30.3333M1 8.33333C1 7.36087 1.38631 6.42824 2.07394 5.74061C2.76158 5.05298 3.69421 4.66667 4.66667 4.66667H26.6667C27.6391 4.66667 28.5718 5.05298 29.2594 5.74061C29.947 6.42824 30.3333 7.36087 30.3333 8.33333V30.3333C30.3333 31.3058 29.947 32.2384 29.2594 32.9261C28.5718 33.6137 27.6391 34 26.6667 34H4.66667C3.69421 34 2.76158 33.6137 2.07394 32.9261C1.38631 32.2384 1 31.3058 1 30.3333V8.33333Z" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M8.33301 23H11.9997V26.6667H8.33301V23Z" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+
+								<div class="creator__block-item">
+									<h3 class="creator__item-title"> 2,500,000 events</h3>
+									<p class="creator__item-text">Gain insights from an extensive
+										database with over 2.5 million events.</p>
+								</div>
+
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="step">
+				<div class="step__container">
+					<h2 class="step__title">How it Works</h2>
+					<div class="step__items">
+
+
+
+						<div class="step__item">
+							<div class="step__item-num">STEP 1</div>
+							<h3 class="step__item-title">Choose Sport</h3>
+							<p class="step__item-text">Select the sport you want
+								to analyze from the header</p>
+
+							<svg class="arrow-pc" width="133" height="42" viewBox="0 0 133 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.5 40.5C1.5 40.5 74 -11 129.5 13" stroke="#EA4335" stroke-width="2" />
+								<path d="M119.848 1L128.781 11.125C129.348 11.7676 128.897 12.779 128.04 12.7866L116 12.893" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+							<svg class="arrow-mb" width="166" height="43" viewBox="0 0 166 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.5 41.9996C14 33.4996 23.6814 16.6839 67.9987 5.49948C128.526 -9.77587 151.5 29 161.5 38.9998" stroke="#EA4335" stroke-width="2" />
+								<path d="M159.166 31.0068L161.325 38.1823C161.572 39.0029 160.74 39.7337 159.958 39.3829L153.945 36.6847" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 2</div>
+							<h3 class="step__item-title">Set Basic Options</h3>
+							<p class="step__item-text">Pick your desired bookmakers, leagues, seasons, and file type.</p>
+
+							<svg class="arrow-pc" width="111" height="49" viewBox="0 0 111 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 47.5C1 47.5 33 27 110.5 7" stroke="#EA4335" stroke-width="2" />
+								<path d="M94 4.39465L107.224 7.12221C108.063 7.29531 108.31 8.37483 107.63 8.89568L98.0689 16.2139" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+							<svg class="arrow-mb" width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M37.9999 1.5C35.4999 1.5 12.9999 12.5 3.49988 31.9997" stroke="#EA4335" stroke-width="2" />
+								<path d="M10.7684 27.708L4.31962 31.5243C3.58215 31.9607 2.67325 31.328 2.82644 30.4849L4.00477 23.9999" stroke="#EA4335" stroke-width="2" />
+							</svg>
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 3</div>
+							<h3 class="step__item-title">Include Updates (Optional)</h3>
+							<p class="step__item-text">Add updates to your
+								data package if needed.</p>
+							<svg class="arrow-pc" width="102" height="94" viewBox="0 0 102 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M91 0.5C98.5 27 132.792 56.9984 3.5 87" stroke="#EA4335" stroke-width="2" />
+								<path d="M17.2603 88.5452L3.89295 86.64C3.0446 86.5191 2.73135 85.4569 3.37833 84.895L12.4688 76.9999" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+
+							<svg class="arrow-mb" width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.00146 1.00012C15.5 6 15.9996 7 18.5003 6.99978" stroke="#EA4335" stroke-width="2" />
+								<path d="M12.1128 1L17.9406 5.71032C18.6071 6.24898 18.3316 7.32159 17.4881 7.47244L10.9998 8.63273" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 6</div>
+							<h3 class="step__item-title">Generate Example</h3>
+							<p class="step__item-text">Preview your data by
+								generating an example.</p>
+
+
+							<svg class="arrow-mb" width="16" height="44" viewBox="0 0 16 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.5 0.5C12.7196 28.8479 3 41 3 41" stroke="#EA4335" stroke-width="2" />
+								<path d="M10.1543 35.5779L4.5509 40.5531C3.91011 41.1221 2.8973 40.6742 2.88702 39.8173L2.80795 33.2266" stroke="#EA4335" stroke-width="2" />
+							</svg>
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 5</div>
+							<h3 class="step__item-title">Review Your Data Package</h3>
+							<p class="step__item-text">Check your selections in the
+								'Your Data Package' summary.</p>
+							<svg class="arrow-pc" width="117" height="53" viewBox="0 0 117 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M116 1.99991C48.5 -0.000103205 2.5 47.4999 2.5 47.4999" stroke="#EA4335" stroke-width="2" />
+								<path d="M18.3906 42.9199L5.2792 46.1455C4.44708 46.3503 3.75976 45.482 4.15003 44.7191L9.6336 34" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+
+							<svg class="arrow-mb" width="22" height="11" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.49902 0.999756C4.99902 5.99976 16 5 19.4998 8.49988" stroke="#EA4335" stroke-width="2" />
+								<path d="M13.1128 2L18.9406 6.71032C19.6071 7.24898 19.3316 8.32159 18.4881 8.47244L11.9998 9.63273" stroke="#EA4335" stroke-width="2" />
+							</svg>
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 4</div>
+
+							<svg class="arrow-pc" width="118" height="53" viewBox="0 0 118 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M116.5 1.5C87.5 30.5 88 44.5 2.5 44.5" stroke="#EA4335" stroke-width="2" />
+								<path d="M13.8467 51.4951L2.04118 44.9419C1.29195 44.526 1.37867 43.422 2.18366 43.1282L13.4942 39.0001" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+							<svg class="arrow-mb" width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M45.5001 1C46.9993 15 6.50012 36.5 3.00061 39" stroke="#EA4335" stroke-width="2" />
+								<path d="M11.3356 38.9424L3.93358 40.1092C3.08711 40.2427 2.47586 39.3192 2.9294 38.5922L6.4179 32.9998" stroke="#EA4335" stroke-width="2" />
+							</svg>
+
+							<h3 class="step__item-title">Select Odds Lines</h3>
+							<p class="step__item-text">Choose the odds lines you
+								want to include in your database.</p>
+						</div>
+						<div class="step__item">
+							<div class="step__item-num">STEP 7</div>
+							<h3 class="step__item-title">Place Order</h3>
+							<p class="step__item-text">Click the 'Order' button to
+								complete your purchase and
+								receive your custom database</p>
+							<svg class="arrow-pc" width="219" height="232" viewBox="0 0 219 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M26.4996 1.5C-45.2088 74.0036 57.4696 120.377 86.7347 197.939C116 275.501 217 188 217 188" stroke="#EA4335" stroke-width="2" />
+								<path d="M200 191.213L213.407 189.609C214.258 189.508 214.834 190.453 214.354 191.163L207.605 201.134" stroke="#EA4335" stroke-width="2" />
+							</svg>
+						</div>
+
+					</div>
+					<div class="interface">
+						<h2 class="interface__title">User Interface</h2>
+						<div class="interface__picture">
+							<img src="img/main/step/1.png" alt="picture">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="access">
+				<div class="access__container">
+					<h2 class="access__title">Access and Pricing</h2>
+					<div class="access__block-content">
+						<div class="access__content">
+							<h3 class="access__content-title">Standard Pricing</h3>
+							<p class="access__content-text">We are currently working on finalizing the standard pricing for our Database Creator service. </p>
+							<p class="access__content-text black">The pricing will be based on several factors, including:</p>
+							<ul class="access__content-list">
+								<li class="access__content-text"><svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg> The amount of data accessed;</li>
+								<li class="access__content-text"><svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg> The number of bookmakers, seasons, and sports included;</li>
+								<li class="access__content-text"><svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg> Frequency of updates;</li>
+								<li class="access__content-text"><svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17 19L33 10M17 19V37M17 19L1 10M17 19L33 28M17 19V1M17 19L1 28" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg> The type and level of access to the platform and its features.</li>
+							</ul>
+							<p class="access__content-text">Please stay tuned for more information about our standard pricing structure. In the meantime, feel free to explore our Database Creator and its features. </p>
+						</div>
+						<div class="access__content">
+							<h3 class="access__content-title">Special Offer <span>(Ended)</span> </h3>
+							<p class="access__content-text">We previously offered a limited-time special offer for early investors, which included unlimited access and updates to our Database Creator.</p>
+							<p class="access__content-text">This exclusive offer was available until March 1st and is no longer active. We want to thank everyone who participated and became early investors in our platform. </p>
+
+							<p class="access__content-text">If you have any questions or need assistance, don't hesitate to contact our support team. </p>
+							<a class="access__btn btn-main" href="#">Contact us!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="schedule">
+				<div class="schedule__container">
+					<h2 class="schedule__title">Database Creator Launch Schedule</h2>
+					<p class="schedule__text">We are excited <br> to announce the upcoming launch <br> of our Database Creator. To keep you <br> informed about the progress and key dates, we've outlined the launch schedule below:</p>
+					<div class="schedule__content">
+						<ul class="schedule__items">
+							<li class="schedule__item">
+								<p>The <span>official launch</span> of the Database Creator is planned for mid-May. The exact date will be announced as we get closer to the launch</p>
+							</li>
+							<li class="schedule__item">
+								<p>As a token of our appreciation for your support, <span>special offer holders</span> will gain exclusive early access to the Database Creator by the end of April.</p>
+							</li>
+							<li class="schedule__item">
+								<p>Leading up to the launch, we will be conducting <span>beta testing and sharing progress updates</span> with our special offer holders. This will provide an opportunity for you to test the Database Creator's functionality, offer feedback.</p>
+							</li>
+							<li class="schedule__item">
+								<p>A <span>group chat</span> will be created <span>for special offer holders</span> , where you can discuss the Database Creator, share your experiences, and collaborate with other users. This will also serve as a platform for us to keep you updated on the project's milestones and any other relevant information.</p>
+							</li>
+						</ul>
+						<div class="schedule__picture-wrap">
+							<div class="schedule__picture">
+								<img src="img/main/schedule/1.png" alt="picture">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="questions">
+				<div class="questions__container">
+					<h2 class="questions__title">Frequently Asked Questions</h2>
+					<div class="questions__content">
+						<div class="questions__items">
+							<div data-spollers class="spollers-questions">
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> What is the Database Creator?
+									</button>
+									<div class="spollers-questions__body">The Database Creator is a powerful tool that allows users to create custom sports databases using data from 33 bookmakers, covering 8 sports and 16 seasons. With this tool, users can create, store, modify, and update their databases as needed.</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> How do I access the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet.</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> What sports are covered by the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ducimus.</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> How many bookmakers' data are included in the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore beatae aliquam!</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> How often is the data updated in the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sed aspernatur libero nam odio dignissimos rem ipsum neque, voluptatibus rerum perferendis quam fugiat. Nulla eaque, obcaecati ullam modi corrupti laborum.</div>
+								</div>
+
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> Can I export my custom databases?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab odit cum officia dolore qui?</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> What are the pricing options for the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit.</div>
+								</div>
+
+								<div class="spollers-questions__item">
+									<button type="button" data-spoller class="spollers-questions__title">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M23.0624 0.877529L0.999999 23.0711" stroke="#EA4335" />
+											<path d="M0.999993 1.09863L22.5161 22.7431" stroke="#EA4335" />
+										</svg> How can I provide feedback or report issues with the Database Creator?
+									</button>
+									<div class="spollers-questions__body">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="questions__info">
+							<div class="questions__info-i">
+								<svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.33331 6.33325C1.33331 5.00717 1.94789 3.7354 3.04186 2.79772C4.13582 1.86004 5.61955 1.33325 7.16665 1.33325H8.83331C10.3804 1.33325 11.8641 1.86004 12.9581 2.79772C14.0521 3.7354 14.6666 5.00717 14.6666 6.33325C14.728 7.41534 14.4361 8.48808 13.8349 9.38988C13.2337 10.2917 12.3558 10.9737 11.3333 11.3333C10.3109 11.8126 9.43291 12.722 8.83171 13.9244C8.23051 15.1268 7.93861 16.5571 7.99998 17.9999M7.99998 24.6666V24.6833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+
+								<svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M23.0623 1.87753L0.999938 24.0711" stroke="white" stroke-width="2" stroke-linecap="round" />
+									<path d="M0.999993 2.09863L22.5161 23.7431" stroke="white" stroke-width="2" stroke-linecap="round" />
+								</svg>
+
+							</div>
+							<div class="questions__content-wrap">
+								<p class="questions__info-text">If you have any other questions or need assistance with the Database Creator, please don't hesitate to reach out to us. You can visit our Support page to submit a request, and we'll get back to you as soon as possible. </p>
+								<p class="questions__info-text">We're here to help and ensure you have the best experience with our service.</p>
+								<a class="questions__btn btn-main" href="#">Visit Support Page</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Privacy</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Term of use</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact us</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">© Indatabet 2020</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230507133929"></script>
+</body>
+
+</html>

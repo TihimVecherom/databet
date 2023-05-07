@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Database Creator</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230507133929">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<button type="button" class="menu__icon"><span></span></button>
+					<div class="header__logo">
+						<a class="logo" href="#">
+							<img src="img/header/logotype.svg" alt="logo">
+						</a>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<div class="menu__logo-close-mb">
+								<a class="logo" href="#">
+									<img src="img/header/logotype.svg" alt="logo">
+								</a>
+								<button class="menu__btn-close">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line x1="1.70711" y1="1.26343" x2="17.2635" y2="16.8198" stroke="#3C4043" stroke-linecap="square" />
+										<line x1="1" y1="16.5563" x2="16.5563" y2="0.999972" stroke="#3C4043" stroke-linecap="square" />
+									</svg>
+								</button>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link link-active">Database Creator</a></li>
+
+								<li class="menu__item item-dropdown">
+									<a class="menu__link ">Sports
+										<svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.8504 0.201779L8.96023 7.37468L2.0701 0.201779C1.94699 0.0733642 1.78173 0.00147216 1.60965 0.00147216C1.43757 0.00147216 1.27231 0.0733642 1.14921 0.201779C1.0896 0.264151 1.04224 0.338597 1.00992 0.420759C0.977589 0.502921 0.960937 0.591146 0.960937 0.680267C0.960937 0.769388 0.977589 0.857613 1.00992 0.939775C1.04224 1.02194 1.0896 1.09638 1.14921 1.15875L8.47911 8.79101C8.60783 8.92501 8.78048 9 8.96023 9C9.13999 9 9.31263 8.92501 9.44136 8.79101L16.7713 1.16023C16.8313 1.09781 16.879 1.02318 16.9116 0.940745C16.9442 0.858311 16.9609 0.769743 16.9609 0.680267C16.9609 0.590791 16.9442 0.502222 16.9116 0.419788C16.879 0.337354 16.8313 0.262725 16.7713 0.200306C16.6482 0.0718913 16.4829 -4.61121e-08 16.3108 -4.56009e-08C16.1387 -4.50897e-08 15.9735 0.0718913 15.8504 0.200306L15.8504 0.201779Z" fill="#3C4043" />
+										</svg>
+									</a>
+									<div class="dropdown">
+
+										<ul class="dropdown__wrap">
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 1</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 2</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 3</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 4</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 5</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 6</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 7</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 8</a>
+											</li>
+										</ul>
+
+									</div>
+
+								</li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Free packages</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Event Predictions</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Docs</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__block-user">
+						<button class="user-btn">
+							<span><a href="#popup-register">Register</a> </span>
+							<svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 1.26667C7.14279 1.26667 7.77114 1.45239 8.3056 1.80035C8.84006 2.1483 9.25662 2.64287 9.50261 3.2215C9.74859 3.80013 9.81295 4.43685 9.68755 5.05112C9.56215 5.66539 9.25262 6.22964 8.7981 6.6725C8.34358 7.11537 7.76448 7.41697 7.13404 7.53915C6.50361 7.66134 5.85014 7.59863 5.25628 7.35895C4.66242 7.11927 4.15484 6.71339 3.79772 6.19264C3.44061 5.67188 3.25 5.05964 3.25 4.43333C3.25 3.59348 3.59241 2.78803 4.2019 2.19416C4.8114 1.6003 5.63805 1.26667 6.5 1.26667ZM6.5 0C5.60009 0 4.7204 0.260011 3.97216 0.747151C3.22391 1.23429 2.64073 1.92668 2.29635 2.73677C1.95197 3.54686 1.86186 4.43825 2.03743 5.29823C2.21299 6.15822 2.64634 6.94816 3.28266 7.56817C3.91899 8.18819 4.72973 8.61042 5.61234 8.78148C6.49495 8.95254 7.40981 8.86475 8.24121 8.5292C9.07261 8.19365 9.78323 7.62542 10.2832 6.89636C10.7831 6.1673 11.05 5.31016 11.05 4.43333C11.05 3.25754 10.5706 2.1299 9.71734 1.29849C8.86405 0.467082 7.70673 0 6.5 0ZM13 19H11.7V15.8333C11.7 15.4175 11.6159 15.0057 11.4526 14.6215C11.2893 14.2373 11.0499 13.8882 10.7481 13.5942C10.4463 13.3001 10.088 13.0669 9.69372 12.9077C9.29941 12.7486 8.8768 12.6667 8.45 12.6667H4.55C3.68805 12.6667 2.8614 13.0003 2.2519 13.5942C1.64241 14.188 1.3 14.9935 1.3 15.8333V19H0V15.8333C0 14.6575 0.479374 13.5299 1.33266 12.6985C2.18595 11.8671 3.34326 11.4 4.55 11.4H8.45C9.65673 11.4 10.814 11.8671 11.6673 12.6985C12.5206 13.5299 13 14.6575 13 15.8333V19Z" fill="#3C4043" />
+							</svg>
+						</button>
+
+						<button class="basket-btn">
+							<span> <a href="#popup-login">Login</a> </span>
+							<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.42879 18.0002C7.13887 18.0002 7.71451 17.4245 7.71451 16.7144C7.71451 16.0043 7.13887 15.4287 6.42879 15.4287C5.7187 15.4287 5.14307 16.0043 5.14307 16.7144C5.14307 17.4245 5.7187 18.0002 6.42879 18.0002Z" fill="#3C4043" />
+								<path d="M15.4288 18.0002C16.1389 18.0002 16.7145 17.4245 16.7145 16.7144C16.7145 16.0043 16.1389 15.4287 15.4288 15.4287C14.7187 15.4287 14.1431 16.0043 14.1431 16.7144C14.1431 17.4245 14.7187 18.0002 15.4288 18.0002Z" fill="#3C4043" />
+								<path d="M18.0001 3.21419H3.74145L3.2143 0.514175C3.18425 0.366782 3.10346 0.234597 2.98599 0.140627C2.86853 0.0466567 2.72183 -0.00314633 2.57144 -0.000113358H0V1.28561H2.04429L4.50002 13.6285C4.53007 13.7759 4.61086 13.9081 4.72833 14.0021C4.84579 14.096 4.99249 14.1458 5.14288 14.1428H16.7144V12.8571H5.67002L5.14288 10.2856H16.7144C16.863 10.2893 17.0082 10.2413 17.1254 10.1499C17.2427 10.0585 17.3246 9.92923 17.3572 9.78422L18.6429 3.99848C18.6645 3.90309 18.664 3.80405 18.6415 3.70889C18.619 3.61373 18.575 3.52495 18.5131 3.44933C18.4511 3.3737 18.3726 3.31321 18.2837 3.27246C18.1949 3.23172 18.0978 3.21178 18.0001 3.21419ZM16.2001 8.99993H4.89859L3.99859 4.49991H17.1965L16.2001 8.99993Z" fill="#3C4043" />
+							</svg>
+						</button>
+					</div>
+					<div class="header__user-menu user-menu">
+						<div class="user-menu__container">
+
+							<div class="user-menu__block-title">
+								<h2 class="user-menu__title">My Account</h2>
+								<a class="user-menu__log" href="#">Log out</a>
+							</div>
+							<div class="user-menu__buttons">
+								<a href="#" class="user-menu__button">
+									My Dashboard
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Order History
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Profile
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Data Packages
+
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<div id="popup-login" class="popup ">
+
+				<div class="popup__wrap">
+					<a href="#fix" class="popup__bg"></a>
+					<div class="popup__content">
+
+						<form class="popup__form " action="get">
+							<a href="#fix" class="popup__btn-close">
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.53228 0.532417L13.9998 14" stroke="#3C4043" />
+									<path d="M0.666992 14.0001L13.8013 0.86597" stroke="#3C4043" />
+								</svg>
+							</a>
+							<h2 class="popup__form-title">Log In</h2>
+
+							<div class="popup__form-inputs">
+
+								<label class="popup__form-label">
+									<input class="popup__form-input" type="text">
+									<span class="placeholder">Email Address *</span>
+								</label>
+
+								<label class="popup__form-label">
+
+									<input class="popup__form-input input-password password-check" name="password" type="password">
+									<span class="placeholder">Password *</span>
+									<a data-target='.input-password' class="button-show-password">Show</a>
+									<span class="password-condition password-ok">
+										<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.647461 3.52943L6.23805 10.9412L13.3533 1.05884" stroke="#1F8F0D" />
+										</svg>
+									</span>
+									<span class="password-condition  password-error">
+										<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L11 10.5238" stroke="#EA4335" />
+											<path d="M1.47656 10.5238L11.0004 1" stroke="#EA4335" />
+										</svg>
+									</span>
+								</label>
+
+
+							</div>
+							<div class="check-style">
+								<input type="checkbox" name="check-form" id="check-form">
+								<label name="check-form" for="check-form">
+									<span><svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF"></path>
+										</svg></span>
+									Remember me
+								</label>
+							</div>
+
+							<a class="popup__form-link-forgot" href="#">Forgot Your Password?</a>
+
+							<div class="popup__form-buttons">
+								<a class="popup__btn-form-log" href="#">Log In</a>
+								<a class="popup__btn-form-soc" href="#">Log In with Facebook</a>
+								<p class="popup__btn-form-text">By logging in, you agree to the <br> <a href="#">Terms and Privacy Policy</a></p>
+							</div>
+
+							<p class="popup__btn-form-text">New to Indatabet?<a href="#">Register</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div id="popup-register" class="popup ">
+
+				<div class="popup__wrap">
+					<a href="#fix" class="popup__bg"></a>
+					<div class="popup__content">
+
+						<form class="popup__form " action="get">
+							<a href="#fix" class="popup__btn-close">
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.53228 0.532417L13.9998 14" stroke="#3C4043" />
+									<path d="M0.666992 14.0001L13.8013 0.86597" stroke="#3C4043" />
+								</svg>
+							</a>
+							<h2 class="popup__form-title">Register</h2>
+
+							<ul class="popup__items">
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Downloadable sports data.
+								</li>
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Daily updates of the data packages.
+								</li>
+								<li class="popup__item">
+									<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#E8C618" />
+									</svg>
+									Saved data from over 3 000 000 events.
+								</li>
+							</ul>
+
+							<div class="popup__form-inputs">
+
+								<label class="popup__form-label">
+									<input class="popup__form-input" type="text">
+									<span class="placeholder">Email Address *</span>
+								</label>
+
+								<label class="popup__form-label">
+
+									<input class="popup__form-input input-password password-check" name="password" type="password">
+									<span class="placeholder">Password *</span>
+									<a data-target='.input-password' class="button-show-password">Show</a>
+									<span class="password-condition password-ok">
+										<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.647461 3.52943L6.23805 10.9412L13.3533 1.05884" stroke="#1F8F0D" />
+										</svg>
+									</span>
+									<span class="password-condition  password-error">
+										<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 1L11 10.5238" stroke="#EA4335" />
+											<path d="M1.47656 10.5238L11.0004 1" stroke="#EA4335" />
+										</svg>
+									</span>
+								</label>
+
+
+							</div>
+							<div class="check-style popup-register-check">
+								<input type="checkbox" name="check-form" id="check-form1">
+								<label name="check-form" for="check-form1">
+									<span><svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF"></path>
+										</svg></span>
+									I'd like to receive the latest news and promotions.
+								</label>
+							</div>
+
+
+
+							<div class="popup__form-buttons">
+								<a class="popup__btn-form-log" href="#">Register</a>
+								<a class="popup__btn-form-soc" href="#">Register with Facebook</a>
+
+							</div>
+
+							<p class="popup__btn-form-text popup-down-text">By logging in, you agree to the<a href="#">Terms and Privacy Policy</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page page-creator">
+
+			<div class="estimate-btn-mb__wrap">
+				<a class="estimate-btn-mb" href="#estimate">
+					<svg width="122" height="57" viewBox="0 0 122 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6.00055 28.9999C36.9999 -9.50008 122.002 2.49995 122.002 2.49995V57.0009H3.00165C3.00165 57.0009 -5.14321 42.84 6.00055 28.9999Z" fill="#EA4335" />
+					</svg>
+					<span>estimate</span>
+				</a>
+			</div>
+
+
+			<div class="product-bunner bunner-creator">
+				<div class="product-bunner__container">
+					<div class="product-bunner__content content-bunner">
+						<p class="product-bunner__text">Indatabet Database Creator</p>
+						<p class="product-bunner__text-info"> Prices are up to date. Last update: 01-Feb-2023 </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="data-package">
+				<div class="data-package__container">
+					<div class="data-package__section">
+						<div class="data-package__block-content">
+							<div class="data-package__menu">
+
+								<div class="swiper menu-swiper">
+
+									<div class="swiper-wrapper menu-swiper-wrapper">
+
+										<a href="#" class="swiper-slide menu-swiper-slide active">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_944)">
+													<path d="M40.0652 20.0424C40.0652 25.4852 37.8913 30.3232 34.3261 33.8653C30.7609 37.4074 25.8913 39.5672 20.587 39.5672H20.5C15.1087 39.5672 10.2392 37.4074 6.67394 33.8653C3.28264 30.496 1.19568 25.9171 0.934814 20.8199C0.934814 20.5607 0.934814 20.3016 0.934814 20.0424C0.934814 14.5996 3.10873 9.76161 6.67394 6.21949C10.2392 2.59098 15.1087 0.431152 20.5 0.431152C20.7609 0.431152 21.0218 0.431152 21.2826 0.431152C26.3261 0.603939 30.9348 2.76377 34.3261 6.1331C37.5435 9.32964 39.6305 13.5629 39.9783 18.3145C40.0652 18.9193 40.0652 19.4376 40.0652 20.0424Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M12.3269 2.15991C10.4139 2.85106 8.23994 6.30678 11.8052 5.78842C15.3704 5.27006 29.1095 1.72795 28.8486 6.56596C28.5008 10.0217 14.9356 7.3435 12.2399 9.93529C8.23994 13.823 17.2834 24.3629 18.153 25.6588C19.7182 28.0778 17.0225 30.4105 11.7182 23.2398C8.23994 18.3154 6.50081 14.5141 5.45733 14.0822C3.02255 13.0454 0.500809 18.1426 1.28342 23.1534" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M28.5 2.15991C28.5 2.15991 35.8044 5.35646 33.8044 9.41693C31.9783 13.2182 17.5435 10.1945 16.1522 11.9223C14.7609 13.6502 17.4565 15.5508 21.1087 15.0325C24.7609 14.5141 28.587 14.3413 29.8913 14.3413C31.1957 14.4277 33.2826 15.2053 33.1957 17.9698C33.1087 20.7344 33.1957 23.6718 28.587 30.6696C27.1087 32.8295 26.9348 34.5573 29.1087 33.607C31.2826 32.6567 35.5435 29.1146 35.8044 22.6351C35.7174 18.3154 38.7609 18.4882 39.8913 22.6351" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M30.587 36.8035C30.587 36.8035 22.7609 40.7776 21.7175 37.149C21.0218 34.6436 23.2827 34.2981 26.4131 29.1145C29.0218 24.7948 30.2392 20.648 28.8479 20.0432C27.4566 19.4385 27.2827 20.3888 25.1088 24.5357C22.9348 28.6825 21.1957 33.175 17.8044 32.6566C14.4131 32.1382 10.8479 29.5465 7.80441 23.9309C7.36963 23.1534 5.45659 17.1058 4.41311 18.9201C3.36963 20.7344 3.71746 24.7084 7.45659 29.3737C9.80441 32.311 13.1088 33.7797 12.5001 34.6436C11.8914 35.5076 9.54354 36.1987 7.10876 34.2981" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_944">
+														<rect width="40" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+											<span>Soccer</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide disabled">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M39.9782 19.9999C39.9782 25.3912 37.8043 30.2608 34.2391 33.826C30.7608 37.3043 25.8913 39.5651 20.5 39.5651H20.413C15.0217 39.5651 10.1521 37.3912 6.58691 33.826L20.5 19.9999L34.2391 6.17383C37.4565 9.39122 39.5434 13.6521 39.8913 18.3477C39.9782 18.8695 39.9782 19.3912 39.9782 19.9999Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M34.3261 33.8261C30.8478 37.3044 25.9783 39.5652 20.587 39.5652C20.5 39.0435 20.5 38.5218 20.5 37.9131C20.5 32.9565 22.3261 28.4348 25.4565 24.9565L34.3261 33.8261Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M40.0652 20C40.0652 25.3913 37.8913 30.2609 34.3261 33.8261L25.4565 24.9566C29.0218 20.9566 34.2392 18.4348 39.9783 18.4348C40.0652 18.9566 40.0652 19.4783 40.0652 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M34.2392 6.17395L20.5 20L6.67395 33.7392C3.28264 30.3479 1.19568 25.8261 0.934814 20.6957C0.934814 20.4348 0.934814 20.1739 0.934814 19.9131C0.934814 14.5218 3.10873 9.65221 6.67395 6.08699C10.1522 2.60873 15.1087 0.434814 20.5 0.434814C20.7609 0.434814 21.0218 0.434814 21.2826 0.434814C26.3261 0.695684 30.9348 2.78264 34.2392 6.17395Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M15.5435 15.0434C11.9783 18.6086 7.10873 20.7825 1.71742 20.7825C1.45655 20.7825 1.19568 20.7825 0.934814 20.7825C0.934814 20.5217 0.934814 20.2608 0.934814 19.9999C0.934814 14.6086 3.10873 9.73905 6.67394 6.17383L15.5435 15.0434Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M21.2825 1.21742C21.2825 6.60873 19.1086 11.4783 15.5434 15.0435L6.67383 6.17394C10.1521 2.60873 15.1086 0.434814 20.4999 0.434814C20.7608 0.434814 21.0217 0.434814 21.2825 0.434814C21.2825 0.695684 21.2825 0.956554 21.2825 1.21742Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M6.67383 6.17383L34.326 33.826" stroke="#EA4335" stroke-miterlimit="10" />
+											</svg>
+
+											<span>Soccer</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_964)">
+													<path d="M40.0652 20C40.0652 22.7826 39.4565 25.4783 38.4131 27.8261C37.3696 26.9566 33.6305 24.4348 29.4565 29.3044C27.1957 31.9131 23.8044 33.5652 19.9783 33.5652C13.0218 33.5652 7.45654 28 7.45654 21.0435C7.45654 17.7392 8.76089 14.6957 10.8478 12.5218C15.5435 6.69568 10.5 3.21742 10.5 3.21742C13.4565 1.47829 16.8478 0.434814 20.5 0.434814C20.7609 0.434814 21.0218 0.434814 21.2826 0.434814C26.3261 0.608727 30.9348 2.78264 34.3261 6.17394C37.5435 9.39134 39.6305 13.6522 39.9783 18.3479C40.0652 18.8696 40.0652 19.4783 40.0652 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M38.4128 27.8262C37.4563 30.0871 36.065 32.0871 34.3259 33.8262C30.7607 37.3914 25.8911 39.5654 20.5867 39.5654H20.4998C15.1085 39.5654 10.2389 37.3914 6.6737 33.8262C3.2824 30.4349 1.19544 25.9132 0.93457 20.7827C0.93457 20.5219 0.93457 20.261 0.93457 20.0001C0.93457 14.6088 3.10848 9.73927 6.6737 6.17405C7.80413 5.04362 9.10848 4.00014 10.4998 3.21753C10.4998 3.21753 15.6302 6.78275 10.8476 12.5219C8.76066 14.7827 7.45631 17.8262 7.45631 21.1306C7.45631 28.0871 13.0215 33.6523 19.978 33.6523C23.7172 33.6523 27.1085 32.0001 29.4563 29.3914C33.6302 24.5219 37.3693 27.0436 38.4128 27.8262Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M38.6735 28.087C38.6735 28.087 38.5865 28.0001 38.4126 27.8262" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M40.065 20C40.065 25.3913 37.8911 30.2609 34.3259 33.8261C30.7607 37.3913 25.8911 39.5652 20.5867 39.5652H20.4998C15.1085 39.5652 10.2389 37.3913 6.6737 33.8261C3.2824 30.4348 1.19544 25.9131 0.93457 20.7826C0.93457 20.5218 0.93457 20.2609 0.93457 20C0.93457 14.6087 3.10848 9.73916 6.6737 6.17394C10.2389 2.60873 15.1085 0.434814 20.4998 0.434814C20.7607 0.434814 21.0215 0.434814 21.2824 0.434814C26.3259 0.608727 30.9346 2.78264 34.3259 6.17394C37.5433 9.39134 39.6302 13.6522 39.978 18.3479C40.065 18.8696 40.065 19.4783 40.065 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_964">
+														<rect width="40" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+
+											<span>Tennis</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M40.0652 20.0001C40.0652 25.3914 37.8913 30.2609 34.3261 33.8262C30.7609 37.3914 25.8913 39.5653 20.587 39.5653C20.5 39.0436 20.5 38.5218 20.5 37.9131C20.5 32.9566 22.3261 28.3479 25.4565 24.9566C29.0217 20.9566 34.2391 18.4349 39.9783 18.3479C40.0652 18.8696 40.0652 19.4783 40.0652 20.0001Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M39.978 18.3479C34.152 18.3479 29.0215 20.8696 25.4563 24.9566C22.4128 28.4348 20.4998 32.9565 20.4998 37.9131C20.4998 38.4348 20.4998 39.0435 20.5867 39.5652H20.4998C15.1085 39.5652 10.2389 37.3913 6.6737 33.8261C3.2824 30.4348 1.19544 25.9131 0.93457 20.7826C1.19544 20.7826 1.45631 20.7826 1.71718 20.7826C7.10848 20.7826 11.978 18.6087 15.5433 15.0435C19.1085 11.4783 21.2824 6.60873 21.2824 1.21742C21.2824 0.956553 21.2824 0.695684 21.2824 0.434814C26.3259 0.608727 30.9346 2.78264 34.3259 6.17394C37.5433 9.39134 39.6302 13.6522 39.978 18.3479Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M21.2824 1.21742C21.2824 6.60873 19.1085 11.4783 15.5433 15.0435C11.978 18.6087 7.10848 20.7826 1.71718 20.7826C1.45631 20.7826 1.19544 20.7826 0.93457 20.7826C0.93457 20.5218 0.93457 20.2609 0.93457 20C0.93457 14.6087 3.10848 9.73916 6.6737 6.17395C10.2389 2.60873 15.1085 0.434814 20.4998 0.434814C20.7607 0.434814 21.0215 0.434814 21.2824 0.434814C21.2824 0.695684 21.2824 0.956554 21.2824 1.21742Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M14.2393 11.3042L18.5001 15.5651" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M16.3262 8.34766L21.3696 11.652" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M17.8042 5.13037L23.3694 7.56515" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M8.5 16.4346L11.3696 21.7389" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M11.2827 14.3477L15.0218 19.1303" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M27.7174 26.6957L23.4565 22.4348" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M25.6304 29.6522L20.5869 26.3479" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M24.1521 32.7827L18.6738 30.3479" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M33.8046 22.174L30.9351 16.7827" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M31.0218 24.0871L27.2827 19.3044" stroke="#EA4335" stroke-miterlimit="10" />
+											</svg>
+
+											<span>Baseball</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+
+											<svg width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_996)">
+													<path d="M37.2828 8.52079C37.2828 10.3469 37.1215 12.086 36.8795 13.8251C33.9756 12.8686 31.3943 11.2164 29.3777 9.04253L29.2971 8.95558C27.1998 6.69471 25.5865 3.99906 24.6992 0.86862C26.3125 0.520794 28.0064 0.433838 29.7004 0.433838C30.023 0.433838 30.3457 0.433838 30.5877 0.433838C31.233 0.433838 31.8783 0.520794 32.5236 0.607751C33.7336 0.694707 34.7822 1.3034 35.5888 2.17297C36.3955 3.04253 36.9601 4.17297 37.0408 5.47732C37.1215 6.25992 37.1215 7.04253 37.2021 7.82514C37.2828 8.08601 37.2828 8.34688 37.2828 8.52079Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M2.91992 38.1739C2.83925 38.0869 2.67793 38 2.59726 37.826L2.5166 37.7391C1.70996 36.8695 1.14531 35.7391 1.06465 34.4347C0.983984 33.6521 0.983984 32.8695 0.90332 32.0869C0.90332 31.826 0.90332 31.5652 0.90332 31.3043C0.90332 29.5652 1.06465 27.826 1.30664 26.0869H1.3873C1.14531 27.826 0.983984 29.5652 0.983984 31.3913C0.983984 32.4347 1.06465 33.4782 1.14531 34.4347C1.22598 35.7391 1.79062 36.8695 2.59726 37.7391C2.67793 37.913 2.75859 38.0869 2.91992 38.1739Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M13.4061 39.0434C11.7928 39.3912 10.0989 39.4782 8.40496 39.4782C8.08231 39.4782 7.75965 39.4782 7.51766 39.4782C6.87235 39.4782 6.22704 39.3912 5.58173 39.3043C4.61376 39.2173 3.72646 38.8695 3.00048 38.2608L2.91982 38.1738C2.83916 38.0869 2.67783 37.9999 2.59716 37.826C1.79053 36.9564 1.22588 35.826 1.14521 34.5217C1.06455 33.4782 0.983887 32.5217 0.983887 31.4782C0.983887 29.6521 1.14521 27.913 1.38721 26.1738C4.21044 27.1303 6.79169 28.7825 8.88895 30.9564C8.88895 30.9564 8.96961 30.9564 8.96961 31.0434C10.9862 33.2173 12.5188 35.9999 13.4061 39.0434Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M36.8794 13.8252C34.5402 28.4339 22.6826 39.5643 8.48573 39.5643C7.51776 39.5643 6.54979 39.4773 5.66249 39.3904C4.69452 39.3034 3.72656 38.8687 3.00058 38.26C3.72656 38.8687 4.61386 39.2165 5.58183 39.3904C6.22714 39.4773 6.87245 39.4773 7.51776 39.5643C7.84042 39.5643 8.16307 39.5643 8.40506 39.5643C10.099 39.5643 11.7929 39.3904 13.4062 39.1295C12.5189 36.086 10.9863 33.3034 8.88905 31.1295L8.80838 31.0426C6.71112 28.8687 4.21054 27.2165 1.30664 26.26C3.48457 13.3034 12.8416 3.12952 24.6992 0.868652C25.5865 3.91213 27.1191 6.69474 29.2163 8.86865L29.297 8.95561C31.3943 11.2165 33.9755 12.8687 36.8794 13.8252Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M8.88916 31.0435L14.1323 25.3913L16.7942 22.5217L19.3755 19.6522L22.0374 16.8695L24.6993 14L29.2971 9.04346" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M12.1963 23.3042L16.1488 27.5651" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M14.7773 20.4346L18.7299 24.6954" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M17.4395 17.5649L21.392 21.8258" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M20.1016 14.6956L24.0541 18.9564" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M22.7632 11.9128L26.7157 16.1737" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_996">
+														<rect width="37.1861" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+
+
+
+											<span>Am Football</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_1011)">
+													<path d="M40.065 8.52177C40.065 25.6522 26.152 39.5652 9.02153 39.5652C7.45631 39.5652 5.80414 39.4783 4.32587 39.2174C2.76066 38.9565 1.54327 37.7392 1.2824 36.1739C1.02153 34.6087 0.93457 33.0435 0.93457 31.4783C0.93457 14.3479 14.8476 0.434814 31.978 0.434814C33.5433 0.434814 35.1954 0.521771 36.6737 0.78264C38.2389 1.04351 39.4563 2.2609 39.7172 3.82612C39.978 5.39134 40.065 6.95655 40.065 8.52177Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M39.1955 1.30444L1.8042 38.6957" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M13.0215 23.3044L17.2824 27.5653" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M15.8042 20.4348L20.0651 24.6957" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M18.6738 17.5652L22.9347 21.8261" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M21.5435 14.6958L25.8043 18.9567" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M24.4126 11.9131L28.6735 16.174" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_1011">
+														<rect width="40" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+
+
+											<span>Rugby</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+
+											<svg width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_1023)">
+													<path d="M2.43572 31.7382C-1.27482 27.7382 1.87107 17.8251 9.45348 9.65122C16.6326 1.91208 25.2636 -1.47922 29.2968 1.56426L30.3454 2.69469" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M30.4261 2.69562L29.3774 1.56519C29.5388 1.7391 29.7808 1.91301 29.9421 2.08692C30.1034 2.26084 30.2647 2.52171 30.4261 2.69562Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M30.4263 2.69556L35.6695 8.26077C39.38 12.2608 36.2341 22.1738 28.6517 30.3477C21.392 38.1738 12.7609 41.5651 8.72772 38.4347L7.75976 37.3912L2.5166 31.739" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M2.43555 31.739C3.48418 32.8695 4.85546 33.3912 6.54941 33.3912C11.0666 33.4782 17.3584 30.0869 22.8435 24.1738C28.4093 18.2608 31.5552 11.3912 31.4746 6.6086C31.4746 5.13034 31.0712 3.73903 30.4259 2.69556" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M8.72773 38.3467C8.5664 38.173 8.32441 37.9992 8.16309 37.8255C8.00176 37.7386 7.84043 37.5649 7.75977 37.3911L8.72773 38.3467Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M8.72754 38.4338V38.3477" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_1023">
+														<rect width="37.1054" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+
+
+											<span>Hockey</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_944)">
+													<path d="M40.0652 20.0424C40.0652 25.4852 37.8913 30.3232 34.3261 33.8653C30.7609 37.4074 25.8913 39.5672 20.587 39.5672H20.5C15.1087 39.5672 10.2392 37.4074 6.67394 33.8653C3.28264 30.496 1.19568 25.9171 0.934814 20.8199C0.934814 20.5607 0.934814 20.3016 0.934814 20.0424C0.934814 14.5996 3.10873 9.76161 6.67394 6.21949C10.2392 2.59098 15.1087 0.431152 20.5 0.431152C20.7609 0.431152 21.0218 0.431152 21.2826 0.431152C26.3261 0.603939 30.9348 2.76377 34.3261 6.1331C37.5435 9.32964 39.6305 13.5629 39.9783 18.3145C40.0652 18.9193 40.0652 19.4376 40.0652 20.0424Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M12.3269 2.15991C10.4139 2.85106 8.23994 6.30678 11.8052 5.78842C15.3704 5.27006 29.1095 1.72795 28.8486 6.56596C28.5008 10.0217 14.9356 7.3435 12.2399 9.93529C8.23994 13.823 17.2834 24.3629 18.153 25.6588C19.7182 28.0778 17.0225 30.4105 11.7182 23.2398C8.23994 18.3154 6.50081 14.5141 5.45733 14.0822C3.02255 13.0454 0.500809 18.1426 1.28342 23.1534" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M28.5 2.15991C28.5 2.15991 35.8044 5.35646 33.8044 9.41693C31.9783 13.2182 17.5435 10.1945 16.1522 11.9223C14.7609 13.6502 17.4565 15.5508 21.1087 15.0325C24.7609 14.5141 28.587 14.3413 29.8913 14.3413C31.1957 14.4277 33.2826 15.2053 33.1957 17.9698C33.1087 20.7344 33.1957 23.6718 28.587 30.6696C27.1087 32.8295 26.9348 34.5573 29.1087 33.607C31.2826 32.6567 35.5435 29.1146 35.8044 22.6351C35.7174 18.3154 38.7609 18.4882 39.8913 22.6351" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M30.587 36.8035C30.587 36.8035 22.7609 40.7776 21.7175 37.149C21.0218 34.6436 23.2827 34.2981 26.4131 29.1145C29.0218 24.7948 30.2392 20.648 28.8479 20.0432C27.4566 19.4385 27.2827 20.3888 25.1088 24.5357C22.9348 28.6825 21.1957 33.175 17.8044 32.6566C14.4131 32.1382 10.8479 29.5465 7.80441 23.9309C7.36963 23.1534 5.45659 17.1058 4.41311 18.9201C3.36963 20.7344 3.71746 24.7084 7.45659 29.3737C9.80441 32.311 13.1088 33.7797 12.5001 34.6436C11.8914 35.5076 9.54354 36.1987 7.10876 34.2981" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_944">
+														<rect width="40" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+											<span>Soccer</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M39.9782 19.9999C39.9782 25.3912 37.8043 30.2608 34.2391 33.826C30.7608 37.3043 25.8913 39.5651 20.5 39.5651H20.413C15.0217 39.5651 10.1521 37.3912 6.58691 33.826L20.5 19.9999L34.2391 6.17383C37.4565 9.39122 39.5434 13.6521 39.8913 18.3477C39.9782 18.8695 39.9782 19.3912 39.9782 19.9999Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M34.3261 33.8261C30.8478 37.3044 25.9783 39.5652 20.587 39.5652C20.5 39.0435 20.5 38.5218 20.5 37.9131C20.5 32.9565 22.3261 28.4348 25.4565 24.9565L34.3261 33.8261Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M40.0652 20C40.0652 25.3913 37.8913 30.2609 34.3261 33.8261L25.4565 24.9566C29.0218 20.9566 34.2392 18.4348 39.9783 18.4348C40.0652 18.9566 40.0652 19.4783 40.0652 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M34.2392 6.17395L20.5 20L6.67395 33.7392C3.28264 30.3479 1.19568 25.8261 0.934814 20.6957C0.934814 20.4348 0.934814 20.1739 0.934814 19.9131C0.934814 14.5218 3.10873 9.65221 6.67395 6.08699C10.1522 2.60873 15.1087 0.434814 20.5 0.434814C20.7609 0.434814 21.0218 0.434814 21.2826 0.434814C26.3261 0.695684 30.9348 2.78264 34.2392 6.17395Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M15.5435 15.0434C11.9783 18.6086 7.10873 20.7825 1.71742 20.7825C1.45655 20.7825 1.19568 20.7825 0.934814 20.7825C0.934814 20.5217 0.934814 20.2608 0.934814 19.9999C0.934814 14.6086 3.10873 9.73905 6.67394 6.17383L15.5435 15.0434Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M21.2825 1.21742C21.2825 6.60873 19.1086 11.4783 15.5434 15.0435L6.67383 6.17394C10.1521 2.60873 15.1086 0.434814 20.4999 0.434814C20.7608 0.434814 21.0217 0.434814 21.2825 0.434814C21.2825 0.695684 21.2825 0.956554 21.2825 1.21742Z" stroke="#EA4335" stroke-miterlimit="10" />
+												<path d="M6.67383 6.17383L34.326 33.826" stroke="#EA4335" stroke-miterlimit="10" />
+											</svg>
+
+											<span>Soccer</span>
+										</a>
+
+										<a href="#" class="swiper-slide menu-swiper-slide">
+											<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_135_964)">
+													<path d="M40.0652 20C40.0652 22.7826 39.4565 25.4783 38.4131 27.8261C37.3696 26.9566 33.6305 24.4348 29.4565 29.3044C27.1957 31.9131 23.8044 33.5652 19.9783 33.5652C13.0218 33.5652 7.45654 28 7.45654 21.0435C7.45654 17.7392 8.76089 14.6957 10.8478 12.5218C15.5435 6.69568 10.5 3.21742 10.5 3.21742C13.4565 1.47829 16.8478 0.434814 20.5 0.434814C20.7609 0.434814 21.0218 0.434814 21.2826 0.434814C26.3261 0.608727 30.9348 2.78264 34.3261 6.17394C37.5435 9.39134 39.6305 13.6522 39.9783 18.3479C40.0652 18.8696 40.0652 19.4783 40.0652 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M38.4128 27.8262C37.4563 30.0871 36.065 32.0871 34.3259 33.8262C30.7607 37.3914 25.8911 39.5654 20.5867 39.5654H20.4998C15.1085 39.5654 10.2389 37.3914 6.6737 33.8262C3.2824 30.4349 1.19544 25.9132 0.93457 20.7827C0.93457 20.5219 0.93457 20.261 0.93457 20.0001C0.93457 14.6088 3.10848 9.73927 6.6737 6.17405C7.80413 5.04362 9.10848 4.00014 10.4998 3.21753C10.4998 3.21753 15.6302 6.78275 10.8476 12.5219C8.76066 14.7827 7.45631 17.8262 7.45631 21.1306C7.45631 28.0871 13.0215 33.6523 19.978 33.6523C23.7172 33.6523 27.1085 32.0001 29.4563 29.3914C33.6302 24.5219 37.3693 27.0436 38.4128 27.8262Z" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M38.6735 28.087C38.6735 28.087 38.5865 28.0001 38.4126 27.8262" stroke="#EA4335" stroke-miterlimit="10" />
+													<path d="M40.065 20C40.065 25.3913 37.8911 30.2609 34.3259 33.8261C30.7607 37.3913 25.8911 39.5652 20.5867 39.5652H20.4998C15.1085 39.5652 10.2389 37.3913 6.6737 33.8261C3.2824 30.4348 1.19544 25.9131 0.93457 20.7826C0.93457 20.5218 0.93457 20.2609 0.93457 20C0.93457 14.6087 3.10848 9.73916 6.6737 6.17394C10.2389 2.60873 15.1085 0.434814 20.4998 0.434814C20.7607 0.434814 21.0215 0.434814 21.2824 0.434814C26.3259 0.608727 30.9346 2.78264 34.3259 6.17394C37.5433 9.39134 39.6302 13.6522 39.978 18.3479C40.065 18.8696 40.065 19.4783 40.065 20Z" stroke="#EA4335" stroke-miterlimit="10" />
+												</g>
+												<defs>
+													<clipPath id="clip0_135_964">
+														<rect width="40" height="40" fill="white" transform="translate(0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+
+											<span>Tennis</span>
+										</a>
+
+									</div>
+
+								</div>
+
+
+								<div class="menu-btn-prev">
+									<svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15.2143 2.31742L3.33877 14.5L15.2143 26.6827C15.4269 26.9003 15.5459 27.1925 15.5459 27.4968C15.5459 27.8011 15.4269 28.0933 15.2143 28.3109C15.111 28.4163 14.9878 28.5 14.8517 28.5572C14.7157 28.6144 14.5696 28.6438 14.4221 28.6438C14.2745 28.6438 14.1285 28.6144 13.9924 28.5572C13.8564 28.5 13.7332 28.4163 13.6299 28.3109L0.993898 15.3507C0.772051 15.1231 0.647892 14.8179 0.647892 14.5C0.647892 14.1822 0.772052 13.877 0.993898 13.6494L13.6275 0.689165C13.7308 0.583027 13.8544 0.498669 13.9908 0.441067C14.1273 0.383465 14.274 0.35379 14.4221 0.35379C14.5702 0.35379 14.7169 0.383465 14.8533 0.441067C14.9898 0.498669 15.1134 0.583027 15.2167 0.689165C15.4293 0.906828 15.5483 1.19902 15.5483 1.50329C15.5483 1.80756 15.4293 2.09975 15.2167 2.31742L15.2143 2.31742Z" fill="#3C4043" />
+									</svg>
+								</div>
+
+								<div class="menu-btn-next">
+									<svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.982015 2.31742L12.8575 14.5L0.982016 26.6827C0.769411 26.9003 0.650386 27.1925 0.650386 27.4968C0.650387 27.8011 0.769411 28.0933 0.982016 28.3109C1.08528 28.4163 1.20853 28.5 1.34456 28.5572C1.48059 28.6144 1.62665 28.6438 1.7742 28.6438C1.92175 28.6438 2.06782 28.6144 2.20385 28.5572C2.33987 28.5 2.46313 28.4163 2.56639 28.3109L15.2024 15.3507C15.4242 15.1231 15.5484 14.8179 15.5484 14.5C15.5484 14.1822 15.4242 13.877 15.2024 13.6494L2.56883 0.689165C2.46549 0.583027 2.34193 0.498669 2.20545 0.441067C2.06897 0.383465 1.92234 0.35379 1.7742 0.35379C1.62607 0.35379 1.47943 0.383465 1.34295 0.441067C1.20647 0.498669 1.08292 0.583027 0.979576 0.689165C0.766972 0.906828 0.647948 1.19902 0.647948 1.50329C0.647948 1.80756 0.766972 2.09975 0.979576 2.31742L0.982015 2.31742Z" fill="#3C4043" />
+									</svg>
+								</div>
+
+							</div>
+							<div class="data-package__content">
+								<div class="data-package__choise">
+									<div class="data-package__choise-items">
+
+										<div class="data-package__choise-item ">
+											<h2 class="data-package__choise-item-title">Select type of the data package:</h2>
+											<div class="data-package__choise-item-block radio-item">
+												<input checked type="radio" name="choise" id="ch1">
+												<label for="ch1">Single</label>
+												<input type="radio" id="ch2" name="choise">
+												<label for="ch2">Union</label>
+											</div>
+
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Choose a bookmaker/s:</h2>
+											<div class="data-package__choise-item-block">
+												<select name="form[]" class=" ">
+													<option value="1" selected>Pinnacle</option>
+													<option value="2">All bookmakers</option>
+													<option value="3">Pinnacle</option>
+													<option value="4">bet365</option>
+													<option value="5">10Bet</option>
+													<option value="6">bwin</option>
+													<option value="7">William Hill</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Choose the number of leagues:</h2>
+											<div class="data-package__choise-item-block">
+												<select name="form[]" class="header__select ">
+													<option value="1" selected>27 Major Leagues</option>
+													<option value="2">Esport</option>
+													<option value="3">Hokey</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="data-package__choise-item item-check">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Select type of the data package:</h2>
+											<div class="data-package__choise-item-block block-check check-style">
+												<input type="checkbox" id="chc1">
+												<label for="chc1">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													All Seasons
+												</label>
+
+												<input type="checkbox" id="chc2">
+												<label class="disabled-check" for="chc2">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2022/2023
+												</label>
+
+												<input type="checkbox" id="chc3">
+												<label for="chc3">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2021/2022
+												</label>
+
+												<input type="checkbox" id="chc4">
+												<label for="chc4">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2020/2021
+												</label>
+
+												<input type="checkbox" id="chc5">
+												<label for="chc5">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2019/2020
+												</label>
+
+												<input type="checkbox" id="chc6">
+												<label for="chc6">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2018/2019
+												</label>
+
+												<input type="checkbox" id="chc7">
+												<label for="chc7">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2017/2018
+												</label>
+
+												<input type="checkbox" id="chc8">
+												<label for="chc8">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2016/2017
+												</label>
+
+												<input type="checkbox" id="chc9">
+												<label for="chc9">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2015/2016
+												</label>
+
+												<input type="checkbox" id="chc10">
+												<label for="chc10">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2014/2015
+												</label>
+
+
+												<input type="checkbox" id="chc11">
+												<label for="chc11">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2013/2014
+												</label>
+
+												<input type="checkbox" id="chc12">
+												<label for="chc12">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2012/2013
+												</label>
+
+												<input type="checkbox" id="chc13">
+												<label for="chc13">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2011/2012
+												</label>
+
+												<input type="checkbox" id="chc14">
+												<label for="chc14">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2010/2011
+												</label>
+
+												<input type="checkbox" id="chc15">
+												<label for="chc15">
+													<span>
+														<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+														</svg>
+													</span>
+													2009/2010
+												</label>
+
+											</div>
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Additional settings:</h2>
+											<div class="data-package__choise-item-block radio-item radio-item-width">
+												<input checked type="radio" id="ch3" name="choise1">
+												<label for="ch3">Timestamp</label>
+												<input type="radio" id="ch4" name="choise1">
+												<label for="ch4">Movement</label>
+												<input type="radio" id="ch5" name="choise1">
+												<label class="disabled" for="ch5">Payout</label>
+											</div>
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Odds format:</h2>
+											<div class="data-package__choise-item-block block-format">
+												<input checked type="radio" id="chl" name="format">
+												<label for="chl">EU</label>
+
+												<input type="radio" id="chl1" name="format">
+												<label class="disabled-check" for="chl1">US</label>
+
+												<input type="radio" id="chl2" name="format">
+												<label for="chl2">UK</label>
+											</div>
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Select file format:</h2>
+											<div class="data-package__choise-item-block block-format">
+
+												<input name="file" checked type="radio" id="chs">
+												<label for="chs">.xlsb</label>
+
+												<input name="file" type="radio" id="chs1">
+												<label for="chs1">.csv</label>
+
+											</div>
+										</div>
+
+										<div class="data-package__choise-item">
+											<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+												?
+											</div>
+											<h2 class="data-package__choise-item-title">Time zone:</h2>
+											<div class="data-package__choise-item-block">
+												<select name="form[]" class="header__select ">
+													<option value="1" selected>GMT +0, Monrovia, Reykjavik</option>
+													<option value="2">Esport</option>
+													<option value="3">Hokey</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="data-package__updates updates">
+								<div class="updates__block-title block-format">
+									<div class="updates__title">Updates:</div>
+									<input checked type="radio" name="update" id="up">
+									<label for="up">None</label>
+
+									<input type="radio" name="update" id="up1">
+									<label for="up1">1 month</label>
+
+									<input type="radio" name="update" id="up2">
+									<label for="up2">3 months</label>
+
+									<input type="radio" name="update" id="up3">
+									<label for="up3">6 months</label>
+
+									<input type="radio" name="update" id="up4">
+									<label for="up4">12 months</label>
+								</div>
+								<div class="updates__text">Support is provided for daily data updates. <br>
+									The cost of supporting the update depends on the selected number of leagues and odds lines.</div>
+								<a class="updates__link" href="#"> <span>"Updates" cost description</span> <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17.5038 0.589844L18.4087 1.49544L8.81512 11.089L7.91016 10.1841L17.5038 0.589844Z" fill="#3184EF" />
+										<path d="M18.5997 6.7999H17.3197V1.6799H12.1997V0.399902H18.5997V6.7999ZM15.3997 18.3199H2.59969C1.51169 18.3199 0.679688 17.4879 0.679688 16.3999V3.5999C0.679688 2.5119 1.51169 1.6799 2.59969 1.6799H9.63969V2.9599H2.59969C2.21569 2.9599 1.95969 3.2159 1.95969 3.5999V16.3999C1.95969 16.7839 2.21569 17.0399 2.59969 17.0399H15.3997C15.7837 17.0399 16.0397 16.7839 16.0397 16.3999V9.3599H17.3197V16.3999C17.3197 17.4879 16.4877 18.3199 15.3997 18.3199Z" fill="#3184EF" />
+									</svg>
+								</a>
+							</div>
+							<div class="data-package__choose-type choose-type">
+								<div class="choose-type__bunner">Choose type of odds</div>
+
+								<div class="choose-type__content">
+
+									<div class="choose-type__items">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">All-in-One data package:</div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item check-all">
+												<input type="checkbox" id="box">
+												<label for="box">
+													All-in-One
+
+												</label>
+
+											</div>
+
+										</div>
+									</div>
+
+									<div class="choose-type__items">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">1X2 odds lines: <span class="green">Total cost by this type of odds €5</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box1">
+												<label for="box1">
+													1X2 FT
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box2">
+												<label for="box2">
+													1X2 1H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box3">
+												<label for="box3">
+													1X2 2H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Double Chance odds lines: <span class="green">Total cost by this type of odds €5</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box4">
+												<label for="box4">
+													DC FT
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box5">
+												<label for="box5">
+													DC 1H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box6">
+												<label for="box6">
+													DC 2H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Draw no Bet odds lines: <span class="green">Total cost by this type of odds €5</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box7">
+												<label for="box7">
+													DNB FT
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box8">
+												<label for="box8">
+													DNB 2H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box9">
+												<label for="box9">
+													DNB 1H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Both team to score odds lines: <span class="green">Total cost by this type of odds €3</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box10">
+												<label for="box10">
+													BTTS FT
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box11">
+												<label for="box11">
+													BTTS 1H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box12">
+												<label for="box12">
+													BTTS 2H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items items-extra-size">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">European Handicap odds lines: <span class="green">Choose one to see the total cost</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box13">
+												<label for="box13">
+													EH FT
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box14">
+												<label for="box14">
+													EH 1H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box15">
+												<label for="box15">
+													EH 2H
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€3</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items items-extra-size">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Total Goal odds lines: <span class="green">Total cost by this type of odds €12</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-block-wrap">
+												<div class="choose-type__item-block">
+													<div class="choose-type__item-check check-item ">
+														<input type="checkbox" id="box16">
+														<label for="box16">
+															All TG
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box17">
+														<label for="box17">
+															TG 0.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box18">
+														<label for="box18">
+															TG 1.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box19">
+														<label for="box19">
+															TG 2.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box20">
+														<label for="box20">
+															TG 3.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box21">
+														<label for="box21">
+															TG 4.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box22">
+														<label for="box22">
+															TG 5.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box23">
+														<label for="box23">
+															TG 6.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box24">
+														<label for="box24">
+															TG 1.75
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box25">
+														<label for="box25">
+															TG 2.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box26">
+														<label for="box26">
+															TG 2.25
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box27">
+														<label for="box27">
+															TG 2.75
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box28">
+														<label for="box28">
+															TG 3.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box29">
+														<label for="box29">
+															TG 4.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box30">
+														<label for="box30">
+															TG 5.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+												</div>
+												<div class="choose-type__item-block block-check-size">
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box31">
+														<label for="box31">
+															All TG
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box32">
+														<label for="box32">
+															TG 1.00
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box33">
+														<label for="box33">
+															TG 1.50
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box34">
+														<label for="box34">
+															TG 2.00
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box35">
+														<label for="box35">
+															TG 2.50
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box36">
+														<label for="box36">
+															TG 0.50
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+												</div>
+											</div>
+
+
+										</div>
+									</div>
+
+									<div class="choose-type__items items-extra-size">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Asian Handicap odds lines: <span class="green">Choose one to see the total cost</span></div>
+										<div class="choose-type__item">
+
+											<div class="choose-type__item-block-wrap">
+												<div class="choose-type__item-block">
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box37">
+														<label for="box37">
+															All AH
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box38">
+														<label for="box38">
+															AH 0.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box39">
+														<label for="box39">
+															AH 0.25
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box40">
+														<label for="box40">
+															AH 0.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box41">
+														<label for="box41">
+															AH 0.75
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box42">
+														<label for="box42">
+															AH 1.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box43">
+														<label for="box43">
+															AH 1.25
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box44">
+														<label for="box44">
+															AH 1.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box45">
+														<label for="box45">
+															AH 1.75
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box46">
+														<label for="box46">
+															AH 2.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box47">
+														<label for="box47">
+															AH 2.25
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box48">
+														<label for="box48">
+															AH 2.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box49">
+														<label for="box49">
+															AH 2.75
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box50">
+														<label for="box50">
+															AH 3.00
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box51">
+														<label for="box51">
+															AH 3.25
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box52">
+														<label for="box52">
+															AH 3.50
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+
+												</div>
+												<div class="choose-type__item-block block-check-size">
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box53">
+														<label for="box53">
+															All TG 1H
+
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box55">
+														<label for="box55">
+															AH 0.00
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box56">
+														<label for="box56">
+															AH 0.25
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box57">
+														<label for="box57">
+															AH 0.50
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box58">
+														<label for="box58">
+															AH 1.00
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box59">
+														<label for="box59">
+															AH 1.50
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+												</div>
+											</div>
+
+
+										</div>
+									</div>
+
+									<div class="choose-type__items items-extra-size">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Half Time/Full Time odds lines: <span class="green">Choose one to see the total cost</span></div>
+										<div class="choose-type__item check-item-size">
+
+											<div class="choose-type__item-check check-item ">
+												<input type="checkbox" id="box60">
+												<label for="box60">
+													HTFT Home
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box61">
+												<label for="box61">
+													HTFT Draw
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+											<div class="choose-type__item-check check-item">
+												<input type="checkbox" id="box62">
+												<label for="box62">
+													HTFT Away
+													<span></span>
+												</label>
+												<div class="choose-type__item-price green">€5</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose-type__items items-extra-size">
+										<div data-tippy-content="Phasellus netus tristique ac a. Ultricies tincidunt cursus purus maecenas." class="tippy">
+											?
+										</div>
+										<div class="choose-type__item-title">Correct Score odds lines: <span class="green">Choose one to see the total cost</span></div>
+										<div class="choose-type__item">
+
+
+											<div class="choose-type__item-block-wrap">
+
+												<div class="choose-type__item-block block-check-size-num">
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box63">
+														<label for="box63">
+															All CS
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box64">
+														<label for="box64">
+															1:0
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box65">
+														<label for="box65">
+															2:0
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box66">
+														<label for="box66">
+															2:1
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box67">
+														<label for="box67">
+															3:0
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box68">
+														<label for="box68">
+															3:1
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box69">
+														<label for="box69">
+															3:2
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box70">
+														<label for="box70">
+															4:0
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box71">
+														<label for="box71">
+															4:2
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box72">
+														<label for="box72">
+															4:1
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box73">
+														<label for="box73">
+															0:0
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box74">
+														<label for="box74">
+															1:1
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box75">
+														<label for="box75">
+															2:2
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box76">
+														<label for="box76">
+															3:3
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box77">
+														<label for="box77">
+															4:4
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box54">
+														<label for="box54">
+															5:5
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box78">
+														<label for="box78">
+															0:1
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box79">
+														<label for="box79">
+															0:2
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box80">
+														<label for="box80">
+															1:2
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box81">
+														<label for="box81">
+															0:3
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box82">
+														<label for="box82">
+															1:3
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box83">
+														<label for="box83">
+															2:3
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box84">
+														<label for="box84">
+															0:4
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box85">
+														<label for="box85">
+															1:4
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box86">
+														<label for="box86">
+															2:4
+															<span></span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+
+
+
+												</div>
+												<div class="choose-type__item-block block-check-size-text">
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box87">
+														<label for="box87">
+															All CS
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box88">
+														<label for="box88">
+															0:0
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box89">
+														<label for="box89">
+															1:1
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box90">
+														<label for="box90">
+															1:0
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box91">
+														<label for="box91">
+															2:0
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box92">
+														<label for="box92">
+															0:1
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+													<div class="choose-type__item-check check-item">
+														<input type="checkbox" id="box93">
+														<label for="box93">
+															0:2
+															<span class="red">1H</span>
+														</label>
+														<div class="choose-type__item-price green">€4</div>
+													</div>
+
+												</div>
+											</div>
+
+
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="estimate" class="data-package__block-bar">
+							<div class="data-package__bar">
+								<div class="data-package__bar-bunner">Data Package</div>
+								<div class="data-package__bar-items">
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Sport: Soccer</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Bookmaker: Pinnacle</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Leagues: 27 Major</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Seasons: 2006/2007 - <br> 2022/2023 (to 01 Feb 2023)</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Additional settings: Timestamp </div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Odds format: EU</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">File format: .xlsb </div>
+
+
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">Time zone: GMT-0</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item item-data-mb">
+										<div class="data-package__bar-item-title">Updates: None</div>
+
+
+									</div>
+
+									<div class="data-package__bar-item item-data-mb">
+										<div class="data-package__bar-item-title title-mb-data">Type of odds lines<span>:</span></div>
+									</div>
+
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">1X2: <span class="green">FT</span> </div>
+										<div class="data-package__bar-item-price green">Cost: €15.00</div>
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">DC: <span class="green">FT</span> </div>
+										<div class="data-package__bar-item-price green">Cost: €10.00</div>
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">DNB: <span class="green">FT</span> </div>
+										<div class="data-package__bar-item-price green">Cost: €7.00</div>
+									</div>
+
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">BTS: <span class="green">FT</span> </div>
+										<div class="data-package__bar-item-price green">Cost: €10.00</div>
+									</div>
+
+									<div class="data-package__bar-item">
+										<div class="data-package__bar-item-title">TG: 0.50, 1.50, 2.50</div>
+										<div class="data-package__bar-item-price green">Cost: €12.00</div>
+									</div>
+
+
+
+								</div>
+							</div>
+							<div class="data-package__bar-final">
+								<div class="data-package__bar-final-item">
+									<div class="data-package__bar-final-title">The final estimated price:</div>
+									<div class="data-package__bar-final-price green">€54.00</div>
+								</div>
+								<a href="#" class="data-package__bar-btn btn-main disabled">Order data package</a>
+							</div>
+							<div class="data-package__genarate">
+								<div class="data-package__genarate-title">Please Genarate Example and Description</div>
+								<button class="genarate-btn btn-main">
+
+									<span>Generate!</span> <span>Genarating</span>
+									<span class="genarate-btn-progress">40%</span>
+								</button>
+
+								<div id="contentBlock" class="data-package__genarate-content genarate-content ">
+									<h3 class="genarate-content__title">Example and Description have been <br> successfully generated!</h3>
+									<p class="genarate-content__text">Detailed description of the requested data: <a href="#">link </a> </p>
+									<p class="genarate-content__text">You can see an example of the requested data by clicking on the: <a href="#">link </a> </p>
+
+
+									<div class="genarate-content__block-check check-style">
+										<input type="checkbox" id="chcf">
+										<label for="chcf">
+											<span>
+												<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M1 2.75L4.96 8L10 1" stroke="#3184EF" />
+												</svg>
+											</span>
+											I confirm that I have read the detailed description and an example of the data I have requested.
+										</label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+			<div class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<p class="subscribe__text">Sign up for the Indatabet newsletter</p>
+						<a class="subscribe__btn btn-main" href="#">Subscribe</a>
+					</div>
+				</div>
+			</div>
+
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Privacy</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Term of use</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact us</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">© Indatabet 2020</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230507133929"></script>
+</body>
+
+</html>
