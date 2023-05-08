@@ -6426,6 +6426,33 @@
             };
         }));
     }));
+    const tabLinks = document.querySelectorAll(".tab-title");
+    const tabContents = document.querySelectorAll(".tab-content");
+    tabLinks.forEach((function(tabLink) {
+        tabLink.addEventListener("click", (function() {
+            const tabValue = this.getAttribute("data-tab");
+            tabContents.forEach((function(tabContent) {
+                tabContent.classList.remove("active");
+            }));
+            tabLinks.forEach((function(tabLink) {
+                tabLink.classList.remove("active");
+            }));
+            document.getElementById(tabValue).classList.add("active");
+            this.classList.add("active");
+            if (window.innerWidth < 767.98) {
+                const selectedContent = document.getElementById(tabValue);
+                this.parentNode.insertBefore(selectedContent, this.nextSibling);
+            }
+        }));
+    }));
+    if (window.innerWidth < 767.98) {
+        tabContents.forEach((function(tabContent) {
+            tabContent.classList.remove("active");
+        }));
+        tabLinks.forEach((function(tabLink) {
+            tabLink.classList.remove("active");
+        }));
+    }
     window["FLS"] = true;
     isWebp();
     spollers();
