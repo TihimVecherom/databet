@@ -6453,6 +6453,36 @@
             tabLink.classList.remove("active");
         }));
     }
+    function setupTabs() {
+        const tabSelector = document.querySelector(".tab-selector");
+        const selectedTab = tabSelector.querySelector(".tab-selector__selected");
+        tabSelector.querySelector(".tab-selector__list-wrap");
+        const tabItems = tabSelector.querySelectorAll(".tab-selector__item");
+        const tabContent = document.querySelector(".tab-selector-content");
+        const tabPanes = tabContent.querySelectorAll(".tab-pane");
+        function openTab(tab) {
+            for (let i = 0; i < tabItems.length; i++) {
+                tabPanes[i].classList.remove("active");
+                tabItems[i].classList.remove("active");
+            }
+            tab.classList.add("active");
+            tabPanes[tab.dataset.index].classList.add("active");
+            selectedTab.innerHTML = tab.textContent;
+        }
+        for (let i = 0; i < tabItems.length; i++) {
+            tabItems[i].dataset.index = i;
+            tabItems[i].addEventListener("click", (function() {
+                openTab(this);
+                if (window.innerWidth < 600) selectedTab.classList.remove("active");
+            }));
+        }
+        selectedTab.addEventListener("click", (function() {
+            if (window.innerWidth < 600) this.classList.toggle("active");
+        }));
+    }
+    document.addEventListener("DOMContentLoaded", (function() {
+        setupTabs();
+    }));
     window["FLS"] = true;
     isWebp();
     spollers();
