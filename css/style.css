@@ -7520,6 +7520,7 @@ body::after {
   .step__item {
     padding: 24px 20px;
     min-width: 0%;
+    max-width: 1fr;
   }
 
   .step__item:nth-child(1) svg {
