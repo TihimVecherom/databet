@@ -7519,6 +7519,7 @@ body::after {
 
   .step__item {
     padding: 24px 20px;
+    min-width: 0%;
   }
 
   .step__item:nth-child(1) svg {
