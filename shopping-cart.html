@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230511233230">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<button type="button" class="menu__icon"><span></span></button>
+					<div class="header__logo">
+						<a class="logo" href="#">
+							<img src="img/header/logotype.svg" alt="logo">
+						</a>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<div class="menu__logo-close-mb">
+								<a class="logo" href="#">
+									<img src="img/header/logotype.svg" alt="logo">
+								</a>
+								<button class="menu__btn-close">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<line x1="1.70711" y1="1.26343" x2="17.2635" y2="16.8198" stroke="#3C4043" stroke-linecap="square" />
+										<line x1="1" y1="16.5563" x2="16.5563" y2="0.999972" stroke="#3C4043" stroke-linecap="square" />
+									</svg>
+								</button>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Database Creator</a></li>
+
+								<li class="menu__item item-dropdown">
+									<a class="menu__link ">Sports
+										<svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.8504 0.201779L8.96023 7.37468L2.0701 0.201779C1.94699 0.0733642 1.78173 0.00147216 1.60965 0.00147216C1.43757 0.00147216 1.27231 0.0733642 1.14921 0.201779C1.0896 0.264151 1.04224 0.338597 1.00992 0.420759C0.977589 0.502921 0.960937 0.591146 0.960937 0.680267C0.960937 0.769388 0.977589 0.857613 1.00992 0.939775C1.04224 1.02194 1.0896 1.09638 1.14921 1.15875L8.47911 8.79101C8.60783 8.92501 8.78048 9 8.96023 9C9.13999 9 9.31263 8.92501 9.44136 8.79101L16.7713 1.16023C16.8313 1.09781 16.879 1.02318 16.9116 0.940745C16.9442 0.858311 16.9609 0.769743 16.9609 0.680267C16.9609 0.590791 16.9442 0.502222 16.9116 0.419788C16.879 0.337354 16.8313 0.262725 16.7713 0.200306C16.6482 0.0718913 16.4829 -4.61121e-08 16.3108 -4.56009e-08C16.1387 -4.50897e-08 15.9735 0.0718913 15.8504 0.200306L15.8504 0.201779Z" fill="#3C4043" />
+										</svg>
+									</a>
+									<div class="dropdown">
+
+										<ul class="dropdown__wrap">
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 1</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 2</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 3</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 4</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 5</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 6</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 7</a>
+											</li>
+											<li class="dropdown__item">
+												<a class="dropdown__link" href="#">item 8</a>
+											</li>
+										</ul>
+
+									</div>
+
+								</li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Free packages</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Event Predictions</a></li>
+								<li class="menu__item"><a href="#" class="menu__link ">Docs</a></li>
+								<li class="menu__item"><a href="#" class="menu__link ">FAQ</a></li>
+								<li class="menu__item"><a href="#" class="menu__link ">Support</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__block-user">
+						<button class="user-btn">
+							<span>Register </span>
+							<svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 1.26667C7.14279 1.26667 7.77114 1.45239 8.3056 1.80035C8.84006 2.1483 9.25662 2.64287 9.50261 3.2215C9.74859 3.80013 9.81295 4.43685 9.68755 5.05112C9.56215 5.66539 9.25262 6.22964 8.7981 6.6725C8.34358 7.11537 7.76448 7.41697 7.13404 7.53915C6.50361 7.66134 5.85014 7.59863 5.25628 7.35895C4.66242 7.11927 4.15484 6.71339 3.79772 6.19264C3.44061 5.67188 3.25 5.05964 3.25 4.43333C3.25 3.59348 3.59241 2.78803 4.2019 2.19416C4.8114 1.6003 5.63805 1.26667 6.5 1.26667ZM6.5 0C5.60009 0 4.7204 0.260011 3.97216 0.747151C3.22391 1.23429 2.64073 1.92668 2.29635 2.73677C1.95197 3.54686 1.86186 4.43825 2.03743 5.29823C2.21299 6.15822 2.64634 6.94816 3.28266 7.56817C3.91899 8.18819 4.72973 8.61042 5.61234 8.78148C6.49495 8.95254 7.40981 8.86475 8.24121 8.5292C9.07261 8.19365 9.78323 7.62542 10.2832 6.89636C10.7831 6.1673 11.05 5.31016 11.05 4.43333C11.05 3.25754 10.5706 2.1299 9.71734 1.29849C8.86405 0.467082 7.70673 0 6.5 0ZM13 19H11.7V15.8333C11.7 15.4175 11.6159 15.0057 11.4526 14.6215C11.2893 14.2373 11.0499 13.8882 10.7481 13.5942C10.4463 13.3001 10.088 13.0669 9.69372 12.9077C9.29941 12.7486 8.8768 12.6667 8.45 12.6667H4.55C3.68805 12.6667 2.8614 13.0003 2.2519 13.5942C1.64241 14.188 1.3 14.9935 1.3 15.8333V19H0V15.8333C0 14.6575 0.479374 13.5299 1.33266 12.6985C2.18595 11.8671 3.34326 11.4 4.55 11.4H8.45C9.65673 11.4 10.814 11.8671 11.6673 12.6985C12.5206 13.5299 13 14.6575 13 15.8333V19Z" fill="#3C4043" />
+							</svg>
+						</button>
+
+						<button class="basket-btn">
+							<span>Login</span>
+							<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.42879 18.0002C7.13887 18.0002 7.71451 17.4245 7.71451 16.7144C7.71451 16.0043 7.13887 15.4287 6.42879 15.4287C5.7187 15.4287 5.14307 16.0043 5.14307 16.7144C5.14307 17.4245 5.7187 18.0002 6.42879 18.0002Z" fill="#3C4043" />
+								<path d="M15.4288 18.0002C16.1389 18.0002 16.7145 17.4245 16.7145 16.7144C16.7145 16.0043 16.1389 15.4287 15.4288 15.4287C14.7187 15.4287 14.1431 16.0043 14.1431 16.7144C14.1431 17.4245 14.7187 18.0002 15.4288 18.0002Z" fill="#3C4043" />
+								<path d="M18.0001 3.21419H3.74145L3.2143 0.514175C3.18425 0.366782 3.10346 0.234597 2.98599 0.140627C2.86853 0.0466567 2.72183 -0.00314633 2.57144 -0.000113358H0V1.28561H2.04429L4.50002 13.6285C4.53007 13.7759 4.61086 13.9081 4.72833 14.0021C4.84579 14.096 4.99249 14.1458 5.14288 14.1428H16.7144V12.8571H5.67002L5.14288 10.2856H16.7144C16.863 10.2893 17.0082 10.2413 17.1254 10.1499C17.2427 10.0585 17.3246 9.92923 17.3572 9.78422L18.6429 3.99848C18.6645 3.90309 18.664 3.80405 18.6415 3.70889C18.619 3.61373 18.575 3.52495 18.5131 3.44933C18.4511 3.3737 18.3726 3.31321 18.2837 3.27246C18.1949 3.23172 18.0978 3.21178 18.0001 3.21419ZM16.2001 8.99993H4.89859L3.99859 4.49991H17.1965L16.2001 8.99993Z" fill="#3C4043" />
+							</svg>
+						</button>
+					</div>
+					<div class="header__user-menu user-menu">
+						<div class="user-menu__container">
+
+							<div class="user-menu__block-title">
+								<h2 class="user-menu__title">My Account</h2>
+								<a class="user-menu__log" href="#">Log out</a>
+							</div>
+							<div class="user-menu__buttons">
+								<a href="#" class="user-menu__button">
+									My Dashboard
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Order History
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Profile
+
+								</a>
+								<a href="#" class="user-menu__button">
+									Data Packages
+
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<div id="popup-support" class="popup ">
+
+				<div class="popup__wrap">
+					<a href="#fix" class="popup__bg"></a>
+					<div class="popup__content">
+
+						<form class="popup__form " action="get">
+							<a href="#fix" class="popup__btn-close">
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.53228 0.532417L13.9998 14" stroke="#3C4043" />
+									<path d="M0.666992 14.0001L13.8013 0.86597" stroke="#3C4043" />
+								</svg>
+							</a>
+							<img class="popup__img img-popup-support" src="img/main/support/check.png" alt="picture">
+							<h2 class="popup__form-title">Thank you for contacting us!</h2>
+
+							<p class="popup__text-support">Our support team will review your enquiry and respond as soon as possible!</p>
+
+							<a class="popup__support-btn btn-main" href="#">Ok!</a>
+
+
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</header>
+		<main class="page">
+
+			<div class="product-bunner  bunner-data bunner-support ">
+				<div class="product-bunner__container">
+					<div class="product-bunner__content terms-bunner-content">
+						<p class="product-bunner__text">Shopping Cart</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="shopping-cart">
+				<div class="shopping-cart__container">
+					<div class="shopping-cart__block-content">
+						<div class="shopping-cart__content">
+
+							<div class="shopping-cart__block-specification">
+								<div data-spollers class="spollers-shopping">
+									<div class="spollers-shopping-block__item">
+										<button type="button" data-spoller class="spollers-shopping__title ">Data package specification
+											<svg width="26" height="15" viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M24.1953 0.336299L12.9989 12.2911L1.80238 0.336299C1.60234 0.122274 1.33379 0.0024536 1.05416 0.0024536C0.774521 0.0024536 0.505979 0.122274 0.305935 0.336299C0.209074 0.440251 0.132123 0.564328 0.079591 0.701265C0.0270585 0.838201 -3.7488e-09 0.985244 -4.31397e-09 1.13378C-4.87914e-09 1.28231 0.0270585 1.42935 0.079591 1.56629C0.132123 1.70323 0.209074 1.82731 0.305935 1.93126L12.217 14.6517C12.4262 14.875 12.7068 15 12.9989 15C13.291 15 13.5715 14.875 13.7807 14.6517L25.6918 1.93371C25.7893 1.82968 25.8668 1.7053 25.9198 1.56791C25.9727 1.43052 26 1.2829 26 1.13378C26 0.984652 25.9727 0.837037 25.9198 0.699647C25.8668 0.562256 25.7893 0.437875 25.6918 0.333844C25.4917 0.119819 25.2232 -1.05124e-07 24.9436 -1.03958e-07C24.6639 -1.02793e-07 24.3954 0.119819 24.1953 0.333844L24.1953 0.336299Z" fill="white" />
+											</svg>
+										</button>
+										<div class="spollers-shopping__body">
+											<div class="spollers-shopping__items">
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Sport:</div>
+													<div class="spollers-shopping__item-text">Soccer</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Type of dp:</div>
+													<div class="spollers-shopping__item-text">Single</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Bookmaker:</div>
+													<div class="spollers-shopping__item-text">Pinnacle</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Leagues:</div>
+													<div class="spollers-shopping__item-text">27 Major</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Seasons:</div>
+													<div class="spollers-shopping__item-text">2006/2007 - 2020/2021 (to 30 Jan 2021)</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Additional settings:</div>
+													<div class="spollers-shopping__item-text">Timestamp</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Odds format:</div>
+													<div class="spollers-shopping__item-text">EU</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">File format:</div>
+													<div class="spollers-shopping__item-text">.xlsb</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Time zone:</div>
+													<div class="spollers-shopping__item-text">GMT-0</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Updates:</div>
+													<div class="spollers-shopping__item-text">None</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">Type of odds lines</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">1X2:</div>
+													<div class="spollers-shopping__item-text green">FT</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">DC:</div>
+													<div class="spollers-shopping__item-text green">FT</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">DNB:</div>
+													<div class="spollers-shopping__item-text green">FT</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">BTS:</div>
+													<div class="spollers-shopping__item-text green">FT</div>
+												</div>
+												<div class="spollers-shopping__item">
+													<div class="spollers-shopping__item-title">TG:</div>
+													<div class="spollers-shopping__item-text">0.50, 1.50, 2.50</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+
+
+								</div>
+							</div>
+							<div class="shopping-cart__information">
+								<div class="shopping-cart__information-block-title">
+									<h2 class="shopping-cart__information-title">Order details</h2>
+									<p class="shopping-cart__information-title-text">Amount</p>
+								</div>
+								<div class="shopping-cart__information-items">
+									<div class="shopping-cart__information-item">
+										<p>Invoice ID</p>
+										<p>b3e0009c-6be7-4d35-ab99-155dc4c43abe</p>
+									</div>
+									<div class="shopping-cart__information-item">
+										<p>Payment method</p>
+										<p>Ethereum</p>
+									</div>
+
+								</div>
+								<div class="shopping-cart__information-items">
+									<div class="shopping-cart__information-item information-promocode">
+										<div class="promocode">
+											<p>Do you have promocode? </p>
+											<button class="btn-promocode"> <span>Add promocode</span> <span>Close</span> </button>
+										</div>
+										<div class="promocode__content">
+											<input type="text" placeholder="Enter your promocode">
+											<a class="promocode-add-btn btn-main" href="#">Apply</a>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="shopping-cart__information-items">
+
+									<div class="shopping-cart__information-item">
+										<p>Subtotal </p>
+										<p class="green">0.047969 ETH</p>
+									</div>
+
+									<div class="shopping-cart__information-item">
+										<p>Your discount</p>
+										<p class="red">-15%</p>
+									</div>
+
+									<div class="shopping-cart__information-item information-item-total">
+										<p>Total </p>
+										<p class="green">0.047969 ETH</p>
+									</div>
+								</div>
+
+
+
+
+
+							</div>
+						</div>
+						<div class="shopping-cart__block-contact">
+							<div class="shopping-cart__contact">
+								<div class="shopping-cart__contact-title">Contact information</div>
+								<div class="popup__form-label">
+									<span class="placeholder">Email Address *</span>
+									<span class="popup__email  ">albertgolpshtein@gmail.com</span>
+
+
+
+
+
+									<a href="#" class="change-btn">Change</a>
+								</div>
+							</div>
+							<div class="shopping-cart__payment">
+								<div class="shopping-cart__payment-title">Select payment method</div>
+								<div data-tabs class="tabs">
+									<div class="tabs__wrap">
+										<nav data-tabs-titles class="tabs__navigation">
+											<button type="submit" class="tabs__btn  _tab-active">
+												<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M26.9098 2.62522C25.216 0.962744 22.1542 0.25 18.2372 0.25H6.86901C6.48147 0.250012 6.10663 0.369074 5.81191 0.585779C5.51718 0.802484 5.3219 1.10262 5.26116 1.43222L0.527664 27.2839C0.433578 27.7937 0.891976 28.2553 1.49199 28.2553H8.5103L10.2729 18.6281L10.2182 18.9296C10.3438 18.2491 11.0196 17.7471 11.82 17.7471H15.1551C21.7068 17.7471 26.837 15.4555 28.3355 8.82648C28.38 8.63042 28.4186 8.43959 28.4519 8.25316C28.2627 8.16691 28.2627 8.16691 28.4519 8.25316C28.8981 5.80299 28.4488 4.13518 26.9098 2.62522Z" fill="#27346A" />
+													<path d="M12.9584 7.37053C13.1502 7.29186 13.3601 7.25109 13.5726 7.2512H22.485C23.5404 7.2512 24.5248 7.31034 25.4243 7.43501C25.676 7.46957 25.9265 7.51083 26.1752 7.55874C26.5278 7.62573 26.8763 7.70772 27.2194 7.80441C27.6616 7.9316 28.0735 8.07971 28.452 8.25316C28.8981 5.80205 28.4488 4.13518 26.9098 2.62522C25.215 0.962744 22.1542 0.25 18.2372 0.25H6.86804C6.06758 0.25 5.38661 0.75182 5.26116 1.43222L0.527665 27.283C0.433579 27.7936 0.891976 28.2546 1.49102 28.2546H8.5103L12.1671 8.2854C12.2031 8.08912 12.2939 7.9033 12.4317 7.74394C12.5696 7.58457 12.7503 7.45642 12.9584 7.37053Z" fill="#27346A" />
+													<path d="M28.3356 8.82673C26.837 15.4549 21.707 17.7474 15.1551 17.7474H11.819C11.0187 17.7474 10.3427 18.2493 10.2184 18.9298L8.02556 30.9001C7.94363 31.3463 8.34428 31.7505 8.86844 31.7505H14.7847C15.1236 31.7504 15.4514 31.6462 15.709 31.4567C15.9667 31.2671 16.1373 31.0046 16.1903 30.7163L16.2479 30.4567L17.363 24.3712L17.4348 24.0349C17.4878 23.7467 17.6584 23.4842 17.916 23.2946C18.1737 23.105 18.5014 23.0008 18.8403 23.0007H19.7257C25.4568 23.0007 29.9444 20.9957 31.2558 15.197C31.8032 12.7738 31.5199 10.7506 30.0719 9.32949C29.6327 8.89906 29.0873 8.54358 28.4519 8.25342C28.4175 8.44079 28.3802 8.63067 28.3356 8.82673Z" fill="#2790C3" />
+													<path d="M26.8836 7.71459C26.6499 7.65584 26.4141 7.60382 26.1764 7.55862C25.9275 7.5115 25.6771 7.47052 25.4255 7.43573C24.525 7.31023 23.5413 7.25098 22.485 7.25098H13.5736C13.361 7.25056 13.151 7.29169 12.9594 7.37125C12.7511 7.45689 12.5702 7.58495 12.4323 7.74437C12.2944 7.90378 12.2037 8.08973 12.1681 8.28613L10.2739 18.628L10.2192 18.9294C10.3438 18.2489 11.0197 17.747 11.8202 17.747H15.1562C21.708 17.747 26.838 15.4554 28.3366 8.82636C28.3812 8.6303 28.4186 8.44032 28.453 8.25305C28.0735 8.08054 27.6628 7.93148 27.2204 7.80514C27.1088 7.77327 26.9966 7.74309 26.8837 7.71459" fill="#1F264F" />
+												</svg>
+												<div class="tabs__title-block">
+													<h3 class="tabs__title">PayPal</h3>
+													<p class="tabs__text green">€52.00</p>
+												</div>
+
+											</button>
+											<button type="submit" class="tabs__btn ">
+
+												<svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M30.5666 18.6274C28.4936 26.6674 20.0679 31.5548 11.7635 29.5506C3.44706 27.5464 -1.60828 19.401 0.464838 11.3726C2.53784 3.33256 10.9513 -1.55486 19.2678 0.449399C27.5721 2.44182 32.6397 10.5873 30.5666 18.6274Z" fill="url(#paint0_linear_4177_3582)" />
+													<path d="M22.9027 13.1309C23.2057 11.1387 21.642 10.0605 19.4844 9.3457L20.1875 6.63867L18.4905 6.22852L17.8117 8.86523C17.3632 8.75977 16.9026 8.6543 16.442 8.56055L17.1208 5.91211L15.4238 5.50195L14.7328 8.19726C14.3571 8.11523 13.9934 8.0332 13.6419 7.95117V7.93945L11.2904 7.37695L10.8419 9.13476C10.8419 9.13476 12.1025 9.41601 12.0783 9.42773C12.7692 9.5918 12.8904 10.0371 12.8662 10.3887L12.0661 13.4707C12.1146 13.4824 12.1752 13.4941 12.248 13.5293C12.1874 13.5176 12.1267 13.5059 12.0661 13.4824L10.951 17.7949C10.8661 17.9941 10.6479 18.2988 10.1752 18.1816C10.1873 18.2051 8.93883 17.8887 8.93883 17.8887L8.09033 19.7754L10.3085 20.3145C10.7207 20.4199 11.1207 20.5137 11.5207 20.6191L10.8176 23.3496L12.5146 23.7598L13.2177 21.0527C13.6783 21.1699 14.1389 21.2871 14.5753 21.3926L13.8843 24.0879L15.5813 24.498L16.2844 21.7676C19.1935 22.2949 21.3754 22.084 22.2845 19.541C23.0239 17.502 22.2481 16.3184 20.7208 15.5449C21.8481 15.2988 22.6845 14.584 22.9027 13.1309ZM19.0117 18.4043C18.4905 20.4434 14.9268 19.3418 13.7753 19.0605L14.7086 15.4395C15.8601 15.7207 19.5693 16.2715 19.0117 18.4043ZM19.545 13.0957C19.0602 14.959 16.1026 14.0098 15.145 13.7754L15.9935 10.4941C16.9511 10.7285 20.042 11.1621 19.545 13.0957Z" fill="white" />
+													<defs>
+														<linearGradient id="paint0_linear_4177_3582" x1="15.507" y1="-0.00719999" x2="15.507" y2="29.997" gradientUnits="userSpaceOnUse">
+															<stop stop-color="#F9AA4B" />
+															<stop offset="1" stop-color="#F7931A" />
+														</linearGradient>
+													</defs>
+												</svg>
+												<div class="tabs__title-block">
+													<h3 class="tabs__title">Bitcoin <span>(BTC)</span> </h3>
+													<p class="tabs__text green">0.00261944 </p>
+												</div>
+											</button>
+											<button type="submit" class="tabs__btn ">
+												<svg width="32" height="50" viewBox="0 0 32 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M16.0108 0.505371L15.6724 1.62168V34.0143L16.0108 34.3422L31.5062 25.4542L16.0108 0.505371Z" fill="#343434" />
+													<path d="M16.011 0.505371L0.515625 25.4542L16.011 34.3423V18.6199V0.505371Z" fill="#8C8C8C" />
+													<path d="M16.011 37.1891L15.8203 37.4147V48.9537L16.011 49.4943L31.5156 28.3057L16.011 37.1891Z" fill="#3C3C3B" />
+													<path d="M16.011 49.4943V37.1891L0.515625 28.3057L16.011 49.4943Z" fill="#8C8C8C" />
+													<path d="M16.0107 34.3423L31.5059 25.4545L16.0107 18.6201V34.3423Z" fill="#141414" />
+													<path d="M0.515625 25.4545L16.0108 34.3423V18.6201L0.515625 25.4545Z" fill="#393939" />
+												</svg>
+
+												<div class="tabs__title-block">
+													<h3 class="tabs__title">Ethereum <span>(ETH)</span> </h3>
+													<p class="tabs__text green">0.047969 ETH </p>
+												</div>
+											</button>
+
+										</nav>
+									</div>
+									<div data-tabs-body class="tabs__content">
+										<div class="tabs__body tabs-paypal">
+											<div class="tabs-paypal__title">Sign in to pay with PayPal</div>
+											<a href="#" class="tabs-paypal__btn">PayPal</a>
+										</div>
+										<div class="tabs__body tabs-qr">
+											<div class="tabs-qr__block">
+												<div class="tabs-qr__title">Use QR-code</div>
+												<img src="img/main/shoping-card/icon/qr-1.png" alt="picture">
+												<div class="tabs-qr__info">
+													<div class="tabs-qr__info-text">Invoice is valid for:</div>
+													<div class="tabs-qr__info-time">29:59</div>
+												</div>
+												<div class="tabs-qr__block-items">
+													<div class="tabs-qr__items-title">Or copy payment information</div>
+													<div class="tabs-qr__items">
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">Amount</div>
+															<div class="tabs-qr__item-text">0.00261944 BTC</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">BTC Address</div>
+															<div class="tabs-qr__item-text">3KXWZUntNjw... JEjLRx6VYFZxo</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">Link</div>
+															<div class="tabs-qr__item-text">bitcoin:3KXWZUnt... k3PMwDYGJEjLRx6</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__body ">
+											<div class="tabs-qr__block">
+												<div class="tabs-qr__title">Use QR-code</div>
+												<img src="img/main/shoping-card/icon/qr-2.png" alt="picture">
+												<div class="tabs-qr__info">
+													<div class="tabs-qr__info-text">Invoice is valid for:</div>
+													<div class="tabs-qr__info-time">29:59</div>
+												</div>
+												<div class="tabs-qr__block-items">
+													<div class="tabs-qr__items-title">Or copy payment information</div>
+													<div class="tabs-qr__items">
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">Amount</div>
+															<div class="tabs-qr__item-text">0.047969 ETH</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">BTC Address</div>
+															<div class="tabs-qr__item-text">3KXWZUntNjw... JEjLRx6VYFZxo</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+														<div class="tabs-qr__item">
+															<div class="tabs-qr__item-title">Link</div>
+															<div class="tabs-qr__item-text">bitcoin:3KXWZUnt... k3PMwDYGJEjLRx6</div>
+															<button class="tabs-qr__btn-copy">Copy</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Privacy</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Term of use</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact us</a></li>
+							<li class="menu-footer__item"><a href="#" class="menu-footer__link">© Indatabet 2020</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230511233230"></script>
+</body>
+
+</html>
